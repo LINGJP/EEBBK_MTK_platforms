@@ -1,0 +1,1056 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AAL_ERR	inc/aal_control.h	19;"	d
+AAL_LOG	inc/aal_control.h	18;"	d
+AAL_TAG	inc/aal_control.h	17;"	d
+AAL_compact_ioctl	aal_control.c	/^static long AAL_compact_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+AAL_device	aal_control.c	/^static struct miscdevice AAL_device = {$/;"	v	typeref:struct:miscdevice	file:
+AAL_exit	aal_control.c	/^static void __exit AAL_exit(void)$/;"	f	file:
+AAL_fops	aal_control.c	/^static const struct file_operations AAL_fops = {$/;"	v	typeref:struct:file_operations	file:
+AAL_init	aal_control.c	/^late_initcall(AAL_init);$/;"	v
+AAL_init	aal_control.c	/^static int __init AAL_init(void)$/;"	f	file:
+AAL_open	aal_control.c	/^static int AAL_open(struct inode *inode, struct file *file)$/;"	f	file:
+AAL_release	aal_control.c	/^static int AAL_release(struct inode *inode, struct file *file)$/;"	f	file:
+AAL_unlocked_ioctl	aal_control.c	/^static long AAL_unlocked_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+ALSPSHUB_DEV_NAME	alspshub/alspshub.c	22;"	d	file:
+ALSPS_DIV_MAX	inc/alsps.h	63;"	d
+ALSPS_DIV_MIN	inc/alsps.h	64;"	d
+ALSPS_ERR	inc/alsps.h	43;"	d
+ALSPS_ERR_GETGSENSORDATA	alspshub/alspshub.h	26;"	d
+ALSPS_ERR_I2C	alspshub/alspshub.h	23;"	d
+ALSPS_ERR_IDENTIFICATION	alspshub/alspshub.h	27;"	d
+ALSPS_ERR_SETUP_FAILURE	alspshub/alspshub.h	25;"	d
+ALSPS_ERR_STATUS	alspshub/alspshub.h	24;"	d
+ALSPS_FUN	inc/alsps.h	42;"	d
+ALSPS_INVALID_VALUE	inc/alsps.h	51;"	d
+ALSPS_LOG	inc/alsps.h	44;"	d
+ALSPS_NOTIFY_PROXIMITY_CHANGE	alspshub/alspshub.h	/^    ALSPS_NOTIFY_PROXIMITY_CHANGE = 0,$/;"	e	enum:__anon3
+ALSPS_NOTIFY_TYPE	alspshub/alspshub.h	/^} ALSPS_NOTIFY_TYPE;$/;"	t	typeref:enum:__anon3
+ALSPS_STATUS_MAX	inc/alsps.h	62;"	d
+ALSPS_STATUS_MIN	inc/alsps.h	61;"	d
+ALSPS_SUCCESS	alspshub/alspshub.h	22;"	d
+ALSPS_TAG	inc/alsps.h	41;"	d
+ALSPS_VALUE_MAX	inc/alsps.h	59;"	d
+ALSPS_VALUE_MIN	inc/alsps.h	60;"	d
+ALSPS_VER	inc/alsps.h	45;"	d
+AP3220	ls_ap3220/ap3220.c	76;"	d	file:
+AP3220_INT_AMASK	ls_ap3220/alsps_3220.h	19;"	d
+AP3220_INT_COMMAND	ls_ap3220/alsps_3220.h	15;"	d
+AP3220_INT_MASK	ls_ap3220/alsps_3220.h	17;"	d
+AP3220_INT_PMASK	ls_ap3220/alsps_3220.h	18;"	d
+AP3220_INT_SHIFT	ls_ap3220/alsps_3220.h	16;"	d
+AP3220_IR_ADC_LSB	ls_ap3220/alsps_3220.h	22;"	d
+AP3220_IR_ADC_MSB	ls_ap3220/alsps_3220.h	27;"	d
+AP3220_IR_DATA_HMASK	ls_ap3220/alsps_3220.h	28;"	d
+AP3220_IR_DATA_LBIT	ls_ap3220/alsps_3220.h	25;"	d
+AP3220_IR_DATA_LMASK	ls_ap3220/alsps_3220.h	24;"	d
+AP3220_IR_IROF_MASK	ls_ap3220/alsps_3220.h	23;"	d
+AP3220_LED_CTRL	ls_ap3220/alsps_3220.h	72;"	d
+AP3220_LED_PULSE_MASK	ls_ap3220/alsps_3220.h	75;"	d
+AP3220_LED_PULSE_SHIFT	ls_ap3220/alsps_3220.h	74;"	d
+AP3220_LED_RATIO_MASK	ls_ap3220/alsps_3220.h	82;"	d
+AP3220_LED_RATIO_SHIFT	ls_ap3220/alsps_3220.h	81;"	d
+AP3220_LED_WAITING	ls_ap3220/alsps_3220.h	105;"	d
+AP3220_LED_WAIT_0	ls_ap3220/alsps_3220.h	108;"	d
+AP3220_LED_WAIT_1	ls_ap3220/alsps_3220.h	109;"	d
+AP3220_LED_WAIT_2	ls_ap3220/alsps_3220.h	110;"	d
+AP3220_LED_WAIT_MASK	ls_ap3220/alsps_3220.h	106;"	d
+AP3220_LED_WAIT_SHIFT	ls_ap3220/alsps_3220.h	107;"	d
+AP3220_MODE_ALS_EN	ls_ap3220/alsps_3220.h	9;"	d
+AP3220_MODE_ALS_PS_EN	ls_ap3220/alsps_3220.h	11;"	d
+AP3220_MODE_COMMAND	ls_ap3220/alsps_3220.h	5;"	d
+AP3220_MODE_MASK	ls_ap3220/alsps_3220.h	7;"	d
+AP3220_MODE_POWERDOWN	ls_ap3220/alsps_3220.h	8;"	d
+AP3220_MODE_PS_EN	ls_ap3220/alsps_3220.h	10;"	d
+AP3220_MODE_SHIFT	ls_ap3220/alsps_3220.h	6;"	d
+AP3220_MODE_SWRESET	ls_ap3220/alsps_3220.h	12;"	d
+AP3220_PS_ADC_LSB	ls_ap3220/alsps_3220.h	31;"	d
+AP3220_PS_ADC_MSB	ls_ap3220/alsps_3220.h	37;"	d
+AP3220_PS_CALI_H	ls_ap3220/alsps_3220.h	115;"	d
+AP3220_PS_CALI_L	ls_ap3220/alsps_3220.h	114;"	d
+AP3220_PS_CONFIG	ls_ap3220/alsps_3220.h	43;"	d
+AP3220_PS_CONFIG_BIT4	ls_ap3220/alsps_3220.h	55;"	d
+AP3220_PS_CONFIG_BIT5	ls_ap3220/alsps_3220.h	54;"	d
+AP3220_PS_CONFIG_BIT6	ls_ap3220/alsps_3220.h	53;"	d
+AP3220_PS_DATA_HIGH_TH	ls_ap3220/alsps_3220.h	139;"	d
+AP3220_PS_DATA_HMASK	ls_ap3220/alsps_3220.h	40;"	d
+AP3220_PS_DATA_LBIT	ls_ap3220/alsps_3220.h	35;"	d
+AP3220_PS_DATA_LMASK	ls_ap3220/alsps_3220.h	34;"	d
+AP3220_PS_GAIN_1	ls_ap3220/alsps_3220.h	59;"	d
+AP3220_PS_GAIN_2	ls_ap3220/alsps_3220.h	60;"	d
+AP3220_PS_GAIN_4	ls_ap3220/alsps_3220.h	61;"	d
+AP3220_PS_GAIN_8	ls_ap3220/alsps_3220.h	62;"	d
+AP3220_PS_GAIN_MASK	ls_ap3220/alsps_3220.h	58;"	d
+AP3220_PS_GAIN_SHIFT	ls_ap3220/alsps_3220.h	57;"	d
+AP3220_PS_HOR_DATA_LOW_TH	ls_ap3220/alsps_3220.h	142;"	d
+AP3220_PS_HOR_DELTA_1	ls_ap3220/alsps_3220.h	143;"	d
+AP3220_PS_HOR_DELTA_2	ls_ap3220/alsps_3220.h	144;"	d
+AP3220_PS_HTHH	ls_ap3220/alsps_3220.h	135;"	d
+AP3220_PS_HTHH_MASK	ls_ap3220/alsps_3220.h	137;"	d
+AP3220_PS_HTHH_SHIFT	ls_ap3220/alsps_3220.h	136;"	d
+AP3220_PS_HTHL	ls_ap3220/alsps_3220.h	129;"	d
+AP3220_PS_HTHL_BIT	ls_ap3220/alsps_3220.h	132;"	d
+AP3220_PS_HTHL_MASK	ls_ap3220/alsps_3220.h	131;"	d
+AP3220_PS_HTHL_SHIFT	ls_ap3220/alsps_3220.h	130;"	d
+AP3220_PS_INTG_MASK	ls_ap3220/alsps_3220.h	46;"	d
+AP3220_PS_INTG_SHIFT	ls_ap3220/alsps_3220.h	45;"	d
+AP3220_PS_INTG_TIME_1	ls_ap3220/alsps_3220.h	47;"	d
+AP3220_PS_INTG_TIME_16	ls_ap3220/alsps_3220.h	51;"	d
+AP3220_PS_INTG_TIME_2	ls_ap3220/alsps_3220.h	48;"	d
+AP3220_PS_INTG_TIME_3	ls_ap3220/alsps_3220.h	49;"	d
+AP3220_PS_INTG_TIME_9	ls_ap3220/alsps_3220.h	50;"	d
+AP3220_PS_INT_HYST	ls_ap3220/alsps_3220.h	93;"	d
+AP3220_PS_INT_MASK	ls_ap3220/alsps_3220.h	90;"	d
+AP3220_PS_INT_MODE	ls_ap3220/alsps_3220.h	89;"	d
+AP3220_PS_INT_SHIFT	ls_ap3220/alsps_3220.h	91;"	d
+AP3220_PS_INT_ZONE	ls_ap3220/alsps_3220.h	92;"	d
+AP3220_PS_IROF_HMASK	ls_ap3220/alsps_3220.h	39;"	d
+AP3220_PS_IROF_LMASK	ls_ap3220/alsps_3220.h	33;"	d
+AP3220_PS_LED_PULSE_0	ls_ap3220/alsps_3220.h	76;"	d
+AP3220_PS_LED_PULSE_1	ls_ap3220/alsps_3220.h	77;"	d
+AP3220_PS_LED_PULSE_2	ls_ap3220/alsps_3220.h	78;"	d
+AP3220_PS_LED_PULSE_3	ls_ap3220/alsps_3220.h	79;"	d
+AP3220_PS_LED_RATIO_100	ls_ap3220/alsps_3220.h	86;"	d
+AP3220_PS_LED_RATIO_16	ls_ap3220/alsps_3220.h	83;"	d
+AP3220_PS_LED_RATIO_33	ls_ap3220/alsps_3220.h	84;"	d
+AP3220_PS_LED_RATIO_66	ls_ap3220/alsps_3220.h	85;"	d
+AP3220_PS_LTHH	ls_ap3220/alsps_3220.h	124;"	d
+AP3220_PS_LTHH_MASK	ls_ap3220/alsps_3220.h	126;"	d
+AP3220_PS_LTHH_SHIFT	ls_ap3220/alsps_3220.h	125;"	d
+AP3220_PS_LTHL	ls_ap3220/alsps_3220.h	118;"	d
+AP3220_PS_LTHL_BIT	ls_ap3220/alsps_3220.h	121;"	d
+AP3220_PS_LTHL_MASK	ls_ap3220/alsps_3220.h	120;"	d
+AP3220_PS_LTHL_SHIFT	ls_ap3220/alsps_3220.h	119;"	d
+AP3220_PS_MEAN_MASK	ls_ap3220/alsps_3220.h	97;"	d
+AP3220_PS_MEAN_SHIFT	ls_ap3220/alsps_3220.h	98;"	d
+AP3220_PS_MEAN_TIME	ls_ap3220/alsps_3220.h	96;"	d
+AP3220_PS_MEAN_TIME_12	ls_ap3220/alsps_3220.h	99;"	d
+AP3220_PS_MEAN_TIME_25	ls_ap3220/alsps_3220.h	100;"	d
+AP3220_PS_MEAN_TIME_37	ls_ap3220/alsps_3220.h	101;"	d
+AP3220_PS_MEAN_TIME_50	ls_ap3220/alsps_3220.h	102;"	d
+AP3220_PS_OBJ_HMASK	ls_ap3220/alsps_3220.h	38;"	d
+AP3220_PS_OBJ_LMASK	ls_ap3220/alsps_3220.h	32;"	d
+AP3220_PS_PERSIST_1	ls_ap3220/alsps_3220.h	66;"	d
+AP3220_PS_PERSIST_2	ls_ap3220/alsps_3220.h	67;"	d
+AP3220_PS_PERSIST_4	ls_ap3220/alsps_3220.h	68;"	d
+AP3220_PS_PERSIST_8	ls_ap3220/alsps_3220.h	69;"	d
+AP3220_PS_PERSIST_MASK	ls_ap3220/alsps_3220.h	65;"	d
+AP3220_PS_PERSIST_SHIFT	ls_ap3220/alsps_3220.h	64;"	d
+AP3220_PS_THRESHOLE_LEVELS	ls_ap3220/alsps_3220.h	140;"	d
+AP3220_PS_VER_DATA_LOW_TH	ls_ap3220/alsps_3220.h	146;"	d
+AP3220_PS_VER_DELTA_1	ls_ap3220/alsps_3220.h	147;"	d
+AP3220_PS_VER_DELTA_2	ls_ap3220/alsps_3220.h	148;"	d
+AP3XX6_DEV_NAME	ls_ap3220/ap3220.c	84;"	d	file:
+AP3XX6_DEV_NAME	ls_ap3220/ap3220.c	86;"	d	file:
+AP3XX6_DEV_NAME_vertical	ls_ap3220/ap3220.c	87;"	d	file:
+AP3xx6_ADATA_H	ls_ap3220/ap3xx6c.h	46;"	d
+AP3xx6_ADATA_L	ls_ap3220/ap3xx6c.h	45;"	d
+AP3xx6_ENABLE	ls_ap3220/ap3xx6c.h	42;"	d
+AP3xx6_ERR_GETGSENSORDATA	ls_ap3220/ap3xx6c.h	60;"	d
+AP3xx6_ERR_I2C	ls_ap3220/ap3xx6c.h	57;"	d
+AP3xx6_ERR_IDENTIFICATION	ls_ap3220/ap3xx6c.h	61;"	d
+AP3xx6_ERR_SETUP_FAILURE	ls_ap3220/ap3xx6c.h	59;"	d
+AP3xx6_ERR_STATUS	ls_ap3220/ap3xx6c.h	58;"	d
+AP3xx6_INT_CTL	ls_ap3220/ap3xx6c.h	44;"	d
+AP3xx6_INT_HIGH_THD_HIGH	ls_ap3220/ap3xx6c.h	52;"	d
+AP3xx6_INT_HIGH_THD_LOW	ls_ap3220/ap3xx6c.h	51;"	d
+AP3xx6_INT_LOW_THD_HIGH	ls_ap3220/ap3xx6c.h	50;"	d
+AP3xx6_INT_LOW_THD_LOW	ls_ap3220/ap3xx6c.h	49;"	d
+AP3xx6_INT_STATUS	ls_ap3220/ap3xx6c.h	43;"	d
+AP3xx6_PDATA_H	ls_ap3220/ap3xx6c.h	48;"	d
+AP3xx6_PDATA_L	ls_ap3220/ap3xx6c.h	47;"	d
+AP3xx6_SUCCESS	ls_ap3220/ap3xx6c.h	56;"	d
+APS_DBG	alspshub/alspshub.c	27;"	d	file:
+APS_DBG	cm36558/cm36558.c	38;"	d	file:
+APS_DBG	cm36558/cm36558.c	41;"	d	file:
+APS_DBG	cm36652-new/cm36652.c	39;"	d	file:
+APS_DBG	ls_ap3220/ap3220.c	63;"	d	file:
+APS_ERR	alspshub/alspshub.c	25;"	d	file:
+APS_ERR	cm36558/cm36558.c	32;"	d	file:
+APS_ERR	cm36652-new/cm36652.c	37;"	d	file:
+APS_ERR	ls_ap3220/ap3220.c	61;"	d	file:
+APS_FUN	alspshub/alspshub.c	24;"	d	file:
+APS_FUN	cm36558/cm36558.c	31;"	d	file:
+APS_FUN	ls_ap3220/ap3220.c	60;"	d	file:
+APS_LOG	alspshub/alspshub.c	26;"	d	file:
+APS_LOG	cm36558/cm36558.c	37;"	d	file:
+APS_LOG	cm36558/cm36558.c	40;"	d	file:
+APS_LOG	cm36652-new/cm36652.c	38;"	d	file:
+APS_LOG	ls_ap3220/ap3220.c	62;"	d	file:
+APS_LOGLEVEL	cm36558/cm36558.c	34;"	d	file:
+APS_TAG	alspshub/alspshub.c	23;"	d	file:
+APS_TAG	cm36558/cm36558.c	30;"	d	file:
+APS_TAG	cm36652-new/cm36652.c	36;"	d	file:
+APS_TAG	ls_ap3220/ap3220.c	59;"	d	file:
+CLRCALI	inc/alsps_factory.h	47;"	d
+CM36558_CLR_CALI	cm36558/cm36558.h	/^typedef CM36558_CUST CM36558_CLR_CALI;$/;"	t
+CM36558_CUST	cm36558/cm36558.h	/^} CM36558_CUST;$/;"	t	typeref:struct:__anon8
+CM36558_CUST_ACTION	cm36558/cm36558.h	/^} CM36558_CUST_ACTION;$/;"	t	typeref:enum:__anon7
+CM36558_CUST_ACTION_CLR_CALI	cm36558/cm36558.h	/^	CM36558_CUST_ACTION_CLR_CALI,$/;"	e	enum:__anon7
+CM36558_CUST_ACTION_GET_ALS_RAW_DATA	cm36558/cm36558.h	/^	CM36558_CUST_ACTION_GET_ALS_RAW_DATA,$/;"	e	enum:__anon7
+CM36558_CUST_ACTION_GET_PS_RAW_DATA	cm36558/cm36558.h	/^	CM36558_CUST_ACTION_GET_PS_RAW_DATA,$/;"	e	enum:__anon7
+CM36558_CUST_ACTION_SET_CALI	cm36558/cm36558.h	/^	CM36558_CUST_ACTION_SET_CALI,$/;"	e	enum:__anon7
+CM36558_CUST_ACTION_SET_CUST	cm36558/cm36558.h	/^	CM36558_CUST_ACTION_SET_CUST = 1,$/;"	e	enum:__anon7
+CM36558_CUST_ACTION_SET_EINT_INFO	cm36558/cm36558.h	/^	CM36558_CUST_ACTION_SET_EINT_INFO,$/;"	e	enum:__anon7
+CM36558_CUST_ACTION_SET_PS_THRESHODL	cm36558/cm36558.h	/^	CM36558_CUST_ACTION_SET_PS_THRESHODL,$/;"	e	enum:__anon7
+CM36558_CUST_DATA	cm36558/cm36558.h	/^} CM36558_CUST_DATA;$/;"	t	typeref:union:__anon15
+CM36558_DEV_NAME	cm36558/cm36558.c	28;"	d	file:
+CM36558_ERR_GETGSENSORDATA	cm36558/cm36558.h	41;"	d
+CM36558_ERR_I2C	cm36558/cm36558.h	38;"	d
+CM36558_ERR_IDENTIFICATION	cm36558/cm36558.h	42;"	d
+CM36558_ERR_SETUP_FAILURE	cm36558/cm36558.h	40;"	d
+CM36558_ERR_STATUS	cm36558/cm36558.h	39;"	d
+CM36558_GET_ALS_RAW_DATA	cm36558/cm36558.h	/^} CM36558_GET_ALS_RAW_DATA;$/;"	t	typeref:struct:__anon13
+CM36558_GET_PS_RAW_DATA	cm36558/cm36558.h	/^} CM36558_GET_PS_RAW_DATA;$/;"	t	typeref:struct:__anon14
+CM36558_NOTIFY_PROXIMITY_CHANGE	cm36558/cm36558.h	/^	CM36558_NOTIFY_PROXIMITY_CHANGE = 1,$/;"	e	enum:__anon6
+CM36558_NOTIFY_TYPE	cm36558/cm36558.h	/^} CM36558_NOTIFY_TYPE;$/;"	t	typeref:enum:__anon6
+CM36558_REG_ALS_DATA	cm36558/cm36558.h	30;"	d
+CM36558_REG_ALS_THDH	cm36558/cm36558.h	22;"	d
+CM36558_REG_ALS_THDL	cm36558/cm36558.h	23;"	d
+CM36558_REG_ALS_UV_CONF	cm36558/cm36558.h	21;"	d
+CM36558_REG_ID	cm36558/cm36558.h	34;"	d
+CM36558_REG_INT_FLAG	cm36558/cm36558.h	33;"	d
+CM36558_REG_PS_CANC	cm36558/cm36558.h	26;"	d
+CM36558_REG_PS_CONF1_2	cm36558/cm36558.h	24;"	d
+CM36558_REG_PS_CONF3_MS	cm36558/cm36558.h	25;"	d
+CM36558_REG_PS_DATA	cm36558/cm36558.h	29;"	d
+CM36558_REG_PS_THDH	cm36558/cm36558.h	28;"	d
+CM36558_REG_PS_THDL	cm36558/cm36558.h	27;"	d
+CM36558_REG_UVAS_DATA	cm36558/cm36558.h	31;"	d
+CM36558_REG_UVBS_DATA	cm36558/cm36558.h	32;"	d
+CM36558_SET_CALI	cm36558/cm36558.h	/^} CM36558_SET_CALI;$/;"	t	typeref:struct:__anon10
+CM36558_SET_CUST	cm36558/cm36558.h	/^} CM36558_SET_CUST;$/;"	t	typeref:struct:__anon9
+CM36558_SET_EINT_INFO	cm36558/cm36558.h	/^} CM36558_SET_EINT_INFO;$/;"	t	typeref:struct:__anon12
+CM36558_SET_PS_THRESHOLD	cm36558/cm36558.h	/^} CM36558_SET_PS_THRESHOLD;$/;"	t	typeref:struct:__anon11
+CM36558_SUCCESS	cm36558/cm36558.h	37;"	d
+CM36558_attr_list	cm36558/cm36558.c	/^static struct driver_attribute *CM36558_attr_list[] = {$/;"	v	typeref:struct:driver_attribute	file:
+CM36558_check_intr	cm36558/cm36558.c	/^static int CM36558_check_intr(struct i2c_client *client)$/;"	f	file:
+CM36558_create_attr	cm36558/cm36558.c	/^static int CM36558_create_attr(struct device_driver *driver)$/;"	f	file:
+CM36558_delete_attr	cm36558/cm36558.c	/^static int CM36558_delete_attr(struct device_driver *driver)$/;"	f	file:
+CM36558_device	cm36558/cm36558.c	/^static struct miscdevice CM36558_device = {$/;"	v	typeref:struct:miscdevice	file:
+CM36558_eint_func	cm36558/cm36558.c	/^static void CM36558_eint_func(void)$/;"	f	file:
+CM36558_eint_handler	cm36558/cm36558.c	/^static irqreturn_t CM36558_eint_handler(int irq, void *desc)$/;"	f	file:
+CM36558_eint_work	cm36558/cm36558.c	/^static void CM36558_eint_work(struct work_struct *work)$/;"	f	file:
+CM36558_enable_als	cm36558/cm36558.c	/^int CM36558_enable_als(struct i2c_client *client, int enable)$/;"	f
+CM36558_enable_ps	cm36558/cm36558.c	/^int CM36558_enable_ps(struct i2c_client *client, int enable)$/;"	f
+CM36558_exit	cm36558/cm36558.c	/^module_exit(CM36558_exit);$/;"	v
+CM36558_exit	cm36558/cm36558.c	/^static void __exit CM36558_exit(void)$/;"	f	file:
+CM36558_fops	cm36558/cm36558.c	/^static const struct file_operations CM36558_fops = {$/;"	v	typeref:struct:file_operations	file:
+CM36558_get_als_value	cm36558/cm36558.c	/^static int CM36558_get_als_value(struct CM36558_priv *obj, u16 als)$/;"	f	file:
+CM36558_get_ps_value	cm36558/cm36558.c	/^static int CM36558_get_ps_value(struct CM36558_priv *obj, u8 ps)$/;"	f	file:
+CM36558_i2c_client	cm36558/cm36558.c	/^static struct i2c_client *CM36558_i2c_client;$/;"	v	typeref:struct:i2c_client	file:
+CM36558_i2c_detect	cm36558/cm36558.c	/^static int CM36558_i2c_detect(struct i2c_client *client, struct i2c_board_info *info)$/;"	f	file:
+CM36558_i2c_driver	cm36558/cm36558.c	/^static struct i2c_driver CM36558_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+CM36558_i2c_id	cm36558/cm36558.c	/^static const struct i2c_device_id CM36558_i2c_id[] = { {CM36558_DEV_NAME, 0}, {} };$/;"	v	typeref:struct:i2c_device_id	file:
+CM36558_i2c_master_operate	cm36558/cm36558.c	/^int CM36558_i2c_master_operate(struct i2c_client *client, char *buf, int count, int i2c_flag)$/;"	f
+CM36558_i2c_probe	cm36558/cm36558.c	/^static int CM36558_i2c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+CM36558_i2c_remove	cm36558/cm36558.c	/^static int CM36558_i2c_remove(struct i2c_client *client)$/;"	f	file:
+CM36558_i2c_resume	cm36558/cm36558.c	/^static int CM36558_i2c_resume(struct device *dev)$/;"	f	file:
+CM36558_i2c_suspend	cm36558/cm36558.c	/^static int CM36558_i2c_suspend(struct device *dev)$/;"	f	file:
+CM36558_init	cm36558/cm36558.c	/^module_init(CM36558_init);$/;"	v
+CM36558_init	cm36558/cm36558.c	/^static int __init CM36558_init(void)$/;"	f	file:
+CM36558_init_client	cm36558/cm36558.c	/^static int CM36558_init_client(struct i2c_client *client)$/;"	f	file:
+CM36558_init_flag	cm36558/cm36558.c	/^static int CM36558_init_flag = -1;$/;"	v	file:
+CM36558_init_info	cm36558/cm36558.c	/^static struct alsps_init_info CM36558_init_info = {$/;"	v	typeref:struct:alsps_init_info	file:
+CM36558_local_init	cm36558/cm36558.c	/^static int CM36558_local_init(void)$/;"	f	file:
+CM36558_obj	cm36558/cm36558.c	/^static struct CM36558_priv *CM36558_obj;$/;"	v	typeref:struct:CM36558_priv	file:
+CM36558_open	cm36558/cm36558.c	/^static int CM36558_open(struct inode *inode, struct file *file)$/;"	f	file:
+CM36558_pm_ops	cm36558/cm36558.c	/^static const struct dev_pm_ops CM36558_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+CM36558_power	cm36558/cm36558.c	/^static void CM36558_power(struct alsps_hw *hw, unsigned int on)$/;"	f	file:
+CM36558_priv	cm36558/cm36558.c	/^struct CM36558_priv {$/;"	s	file:
+CM36558_read_als	cm36558/cm36558.c	/^long CM36558_read_als(struct i2c_client *client, u16 *data)$/;"	f
+CM36558_read_ps	cm36558/cm36558.c	/^long CM36558_read_ps(struct i2c_client *client, u16 *data)$/;"	f
+CM36558_release	cm36558/cm36558.c	/^static int CM36558_release(struct inode *inode, struct file *file)$/;"	f	file:
+CM36558_remove	cm36558/cm36558.c	/^static int CM36558_remove(void)$/;"	f	file:
+CM36558_setup_eint	cm36558/cm36558.c	/^int CM36558_setup_eint(struct i2c_client *client)$/;"	f
+CM36558_show_als	cm36558/cm36558.c	/^static ssize_t CM36558_show_als(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_alslv	cm36558/cm36558.c	/^static ssize_t CM36558_show_alslv(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_alsval	cm36558/cm36558.c	/^static ssize_t CM36558_show_alsval(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_config	cm36558/cm36558.c	/^static ssize_t CM36558_show_config(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_ps	cm36558/cm36558.c	/^static ssize_t CM36558_show_ps(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_recv	cm36558/cm36558.c	/^static ssize_t CM36558_show_recv(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_reg	cm36558/cm36558.c	/^static ssize_t CM36558_show_reg(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_send	cm36558/cm36558.c	/^static ssize_t CM36558_show_send(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_status	cm36558/cm36558.c	/^static ssize_t CM36558_show_status(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_show_trace	cm36558/cm36558.c	/^static ssize_t CM36558_show_trace(struct device_driver *ddri, char *buf)$/;"	f	file:
+CM36558_store_alslv	cm36558/cm36558.c	/^static ssize_t CM36558_store_alslv(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+CM36558_store_alsval	cm36558/cm36558.c	/^static ssize_t CM36558_store_alsval(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+CM36558_store_config	cm36558/cm36558.c	/^static ssize_t CM36558_store_config(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+CM36558_store_recv	cm36558/cm36558.c	/^static ssize_t CM36558_store_recv(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+CM36558_store_send	cm36558/cm36558.c	/^static ssize_t CM36558_store_send(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+CM36558_store_trace	cm36558/cm36558.c	/^static ssize_t CM36558_store_trace(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+CM36558_unlocked_ioctl	cm36558/cm36558.c	/^static long CM36558_unlocked_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+CM36652_CUST	cm36652-new/cm36652.h	/^struct CM36652_CUST {$/;"	s
+CM36652_CUST_ACTION	cm36652-new/cm36652.h	/^enum CM36652_CUST_ACTION {$/;"	g
+CM36652_CUST_ACTION_CLR_CALI	cm36652-new/cm36652.h	/^	CM36652_CUST_ACTION_CLR_CALI,$/;"	e	enum:CM36652_CUST_ACTION
+CM36652_CUST_ACTION_GET_ALS_RAW_DATA	cm36652-new/cm36652.h	/^	CM36652_CUST_ACTION_GET_ALS_RAW_DATA,$/;"	e	enum:CM36652_CUST_ACTION
+CM36652_CUST_ACTION_GET_PS_RAW_DATA	cm36652-new/cm36652.h	/^	CM36652_CUST_ACTION_GET_PS_RAW_DATA,$/;"	e	enum:CM36652_CUST_ACTION
+CM36652_CUST_ACTION_SET_CALI	cm36652-new/cm36652.h	/^	CM36652_CUST_ACTION_SET_CALI,$/;"	e	enum:CM36652_CUST_ACTION
+CM36652_CUST_ACTION_SET_CUST	cm36652-new/cm36652.h	/^	CM36652_CUST_ACTION_SET_CUST = 1,$/;"	e	enum:CM36652_CUST_ACTION
+CM36652_CUST_ACTION_SET_EINT_INFO	cm36652-new/cm36652.h	/^	CM36652_CUST_ACTION_SET_EINT_INFO,$/;"	e	enum:CM36652_CUST_ACTION
+CM36652_CUST_ACTION_SET_PS_THRESHODL	cm36652-new/cm36652.h	/^	CM36652_CUST_ACTION_SET_PS_THRESHODL,$/;"	e	enum:CM36652_CUST_ACTION
+CM36652_CUST_DATA	cm36652-new/cm36652.h	/^union CM36652_CUST_DATA {$/;"	u
+CM36652_DEV_NAME	cm36652-new/cm36652.c	34;"	d	file:
+CM36652_ERR_GETGSENSORDATA	cm36652-new/cm36652.h	37;"	d
+CM36652_ERR_I2C	cm36652-new/cm36652.h	34;"	d
+CM36652_ERR_IDENTIFICATION	cm36652-new/cm36652.h	38;"	d
+CM36652_ERR_SETUP_FAILURE	cm36652-new/cm36652.h	36;"	d
+CM36652_ERR_STATUS	cm36652-new/cm36652.h	35;"	d
+CM36652_GET_ALS_RAW_DATA	cm36652-new/cm36652.h	/^struct CM36652_GET_ALS_RAW_DATA {$/;"	s
+CM36652_GET_PS_RAW_DATA	cm36652-new/cm36652.h	/^struct CM36652_GET_PS_RAW_DATA {$/;"	s
+CM36652_NOTIFY_PROXIMITY_CHANGE	cm36652-new/cm36652.h	/^	CM36652_NOTIFY_PROXIMITY_CHANGE = 1,$/;"	e	enum:CM36652_NOTIFY_TYPE
+CM36652_NOTIFY_TYPE	cm36652-new/cm36652.h	/^enum CM36652_NOTIFY_TYPE {$/;"	g
+CM36652_REG_ALS_DATA	cm36652-new/cm36652.h	28;"	d
+CM36652_REG_ALS_THDH	cm36652-new/cm36652.h	22;"	d
+CM36652_REG_ALS_THDL	cm36652-new/cm36652.h	23;"	d
+CM36652_REG_CS_CONF	cm36652-new/cm36652.h	21;"	d
+CM36652_REG_ID_MODE	cm36652-new/cm36652.h	30;"	d
+CM36652_REG_INT_FLAG	cm36652-new/cm36652.h	29;"	d
+CM36652_REG_PS_CANC	cm36652-new/cm36652.h	26;"	d
+CM36652_REG_PS_CONF1_2	cm36652-new/cm36652.h	24;"	d
+CM36652_REG_PS_DATA	cm36652-new/cm36652.h	27;"	d
+CM36652_REG_PS_THD	cm36652-new/cm36652.h	25;"	d
+CM36652_SET_CALI	cm36652-new/cm36652.h	/^struct CM36652_SET_CALI {$/;"	s
+CM36652_SET_CUST	cm36652-new/cm36652.h	/^struct CM36652_SET_CUST {$/;"	s
+CM36652_SET_EINT_INFO	cm36652-new/cm36652.h	/^struct CM36652_SET_EINT_INFO {$/;"	s
+CM36652_SET_PS_THRESHOLD	cm36652-new/cm36652.h	/^struct CM36652_SET_PS_THRESHOLD {$/;"	s
+CM36652_SUCCESS	cm36652-new/cm36652.h	33;"	d
+CM36652_WRAP_i2c_master_operate	cm36652-new/cm36652.c	/^EXPORT_SYMBOL(CM36652_WRAP_i2c_master_operate);$/;"	v
+CM36652_WRAP_i2c_master_operate	cm36652-new/cm36652.c	/^int CM36652_WRAP_i2c_master_operate(char *buf, int count, int i2c_flag)$/;"	f
+CM36652_i2c_master_operate	cm36652-new/cm36652.c	/^int CM36652_i2c_master_operate(struct i2c_client *client, char *buf, int count, int i2c_flag)$/;"	f
+CM36652_pm_ops	cm36652-new/cm36652.c	/^static const struct dev_pm_ops CM36652_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+CMC_BIT	alspshub/alspshub.c	/^} CMC_BIT;$/;"	v	typeref:enum:__anon1
+CMC_BIT	cm36558/cm36558.c	/^} CMC_BIT;$/;"	v	typeref:enum:__anon16
+CMC_BIT	cm36652-new/cm36652.c	/^} CMC_BIT;$/;"	v	typeref:enum:__anon20
+CMC_BIT	ls_ap3220/ap3220.c	/^} CMC_BIT;$/;"	t	typeref:enum:__anon4	file:
+CMC_BIT_ALS	alspshub/alspshub.c	/^	CMC_BIT_ALS = 1,$/;"	e	enum:__anon1	file:
+CMC_BIT_ALS	cm36558/cm36558.c	/^	CMC_BIT_ALS = 1,$/;"	e	enum:__anon16	file:
+CMC_BIT_ALS	cm36652-new/cm36652.c	/^	CMC_BIT_ALS	= 1,$/;"	e	enum:__anon20	file:
+CMC_BIT_ALS	ls_ap3220/ap3220.c	/^	CMC_BIT_ALS	= 1,$/;"	e	enum:__anon4	file:
+CMC_BIT_AS	cm36652-new/cm36652_cs.h	/^        CMC_BIT_AS      = 1,$/;"	e	enum:CMC_CS_BIT
+CMC_BIT_PS	alspshub/alspshub.c	/^	CMC_BIT_PS = 2,$/;"	e	enum:__anon1	file:
+CMC_BIT_PS	cm36558/cm36558.c	/^	CMC_BIT_PS = 2,$/;"	e	enum:__anon16	file:
+CMC_BIT_PS	cm36652-new/cm36652.c	/^	CMC_BIT_PS	   = 2,$/;"	e	enum:__anon20	file:
+CMC_BIT_PS	ls_ap3220/ap3220.c	/^	CMC_BIT_PS	= 2,$/;"	e	enum:__anon4	file:
+CMC_BIT_RGB	cm36652-new/cm36652_cs.h	/^        CMC_BIT_RGB     = 2,$/;"	e	enum:CMC_CS_BIT
+CMC_CS_BIT	cm36652-new/cm36652_cs.h	/^enum CMC_CS_BIT{$/;"	g
+CMC_TRC	alspshub/alspshub.c	/^} CMC_TRC;$/;"	v	typeref:enum:__anon2
+CMC_TRC	cm36558/cm36558.c	/^} CMC_TRC;$/;"	v	typeref:enum:__anon17
+CMC_TRC	cm36652-new/cm36652.c	/^} CMC_TRC;$/;"	v	typeref:enum:__anon21
+CMC_TRC_ALS_DATA	alspshub/alspshub.c	/^	CMC_TRC_ALS_DATA = 0x0001,$/;"	e	enum:__anon2	file:
+CMC_TRC_ALS_DATA	cm36558/cm36558.c	/^	CMC_TRC_ALS_DATA = 0x0001,$/;"	e	enum:__anon17	file:
+CMC_TRC_ALS_DATA	cm36652-new/cm36652.c	/^	CMC_TRC_ALS_DATA = 0x0001,$/;"	e	enum:__anon21	file:
+CMC_TRC_CVT_AAL	cm36558/cm36558.c	/^	CMC_TRC_CVT_AAL = 0x0080,$/;"	e	enum:__anon17	file:
+CMC_TRC_CVT_AAL	cm36652-new/cm36652.c	/^	CMC_TRC_CVT_AAL = 0x0080,$/;"	e	enum:__anon21	file:
+CMC_TRC_CVT_ALS	alspshub/alspshub.c	/^	CMC_TRC_CVT_ALS = 0x0020,$/;"	e	enum:__anon2	file:
+CMC_TRC_CVT_ALS	cm36558/cm36558.c	/^	CMC_TRC_CVT_ALS = 0x0020,$/;"	e	enum:__anon17	file:
+CMC_TRC_CVT_ALS	cm36652-new/cm36652.c	/^	CMC_TRC_CVT_ALS = 0x0020,$/;"	e	enum:__anon21	file:
+CMC_TRC_CVT_PS	alspshub/alspshub.c	/^	CMC_TRC_CVT_PS = 0x0040,$/;"	e	enum:__anon2	file:
+CMC_TRC_CVT_PS	cm36558/cm36558.c	/^	CMC_TRC_CVT_PS = 0x0040,$/;"	e	enum:__anon17	file:
+CMC_TRC_CVT_PS	cm36652-new/cm36652.c	/^	CMC_TRC_CVT_PS  = 0x0040,$/;"	e	enum:__anon21	file:
+CMC_TRC_DEBUG	alspshub/alspshub.c	/^	CMC_TRC_DEBUG = 0x8000,$/;"	e	enum:__anon2	file:
+CMC_TRC_DEBUG	cm36558/cm36558.c	/^	CMC_TRC_DEBUG = 0x8000,$/;"	e	enum:__anon17	file:
+CMC_TRC_DEBUG	cm36652-new/cm36652.c	/^	CMC_TRC_DEBUG   = 0x8000,$/;"	e	enum:__anon21	file:
+CMC_TRC_EINT	alspshub/alspshub.c	/^	CMC_TRC_EINT = 0x0004,$/;"	e	enum:__anon2	file:
+CMC_TRC_EINT	cm36558/cm36558.c	/^	CMC_TRC_EINT = 0x0004,$/;"	e	enum:__anon17	file:
+CMC_TRC_EINT	cm36652-new/cm36652.c	/^	CMC_TRC_EINT	= 0x0004,$/;"	e	enum:__anon21	file:
+CMC_TRC_I2C	alspshub/alspshub.c	/^	CMC_TRC_I2C = 0x0010,$/;"	e	enum:__anon2	file:
+CMC_TRC_I2C	cm36558/cm36558.c	/^	CMC_TRC_I2C = 0x0010,$/;"	e	enum:__anon17	file:
+CMC_TRC_I2C	cm36652-new/cm36652.c	/^	CMC_TRC_I2C	 = 0x0010,$/;"	e	enum:__anon21	file:
+CMC_TRC_IOCTL	alspshub/alspshub.c	/^	CMC_TRC_IOCTL = 0x0008,$/;"	e	enum:__anon2	file:
+CMC_TRC_IOCTL	cm36558/cm36558.c	/^	CMC_TRC_IOCTL = 0x0008,$/;"	e	enum:__anon17	file:
+CMC_TRC_IOCTL	cm36652-new/cm36652.c	/^	CMC_TRC_IOCTL   = 0x0008,$/;"	e	enum:__anon21	file:
+CMC_TRC_PS_DATA	alspshub/alspshub.c	/^	CMC_TRC_PS_DATA = 0x0002,$/;"	e	enum:__anon2	file:
+CMC_TRC_PS_DATA	cm36558/cm36558.c	/^	CMC_TRC_PS_DATA = 0x0002,$/;"	e	enum:__anon17	file:
+CMC_TRC_PS_DATA	cm36652-new/cm36652.c	/^	CMC_TRC_PS_DATA = 0x0002,$/;"	e	enum:__anon21	file:
+CS_BIT	cm36652-new/cm36652.c	/^enum CMC_CS_BIT CS_BIT;$/;"	v	typeref:enum:CMC_CS_BIT
+C_CUST_ALS_LEVEL	inc/cust_alsps.h	19;"	d
+C_CUST_I2C_ADDR_NUM	inc/cust_alsps.h	20;"	d
+Calibration_Flag	ls_ap3220/ap3220.c	/^u8 Calibration_Flag = 0;$/;"	v
+DBG_AP3220	ls_ap3220/alsps_3220.h	161;"	d
+DBG_AP3220	ls_ap3220/alsps_3220.h	163;"	d
+DELAYED_WORK	ls_ap3220/ap3220.c	75;"	d	file:
+DI_AUTO_CAL	ls_ap3220/ap3220.c	78;"	d	file:
+DI_PS_CAL_THR	ls_ap3220/ap3220.c	80;"	d	file:
+EVENT_TYPE_ALS_STATUS	inc/alsps.h	55;"	d
+EVENT_TYPE_ALS_VALUE	inc/alsps.h	53;"	d
+EVENT_TYPE_PS_STATUS	inc/alsps.h	56;"	d
+EVENT_TYPE_PS_VALUE	inc/alsps.h	54;"	d
+GETCALI	inc/alsps_factory.h	48;"	d
+GET_TH_HIGH	inc/alsps_factory.h	50;"	d
+GET_TH_LOW	inc/alsps_factory.h	51;"	d
+GET_TH_RESULT	inc/alsps_factory.h	53;"	d
+I2C_FLAG_READ	cm36558/cm36558.c	45;"	d	file:
+I2C_FLAG_READ	cm36652-new/cm36652.c	43;"	d	file:
+I2C_FLAG_WRITE	cm36558/cm36558.c	44;"	d	file:
+I2C_FLAG_WRITE	cm36652-new/cm36652.c	42;"	d	file:
+IS_SPACE	cm36558/cm36558.c	727;"	d	file:
+IS_SPACE	cm36652-new/cm36652.c	726;"	d	file:
+LS_LUX_1023	ls_ap3220/alsps_3220.h	169;"	d
+LS_LUX_16383	ls_ap3220/alsps_3220.h	167;"	d
+LS_LUX_4096	ls_ap3220/alsps_3220.h	168;"	d
+LS_LUX_65535	ls_ap3220/alsps_3220.h	166;"	d
+LS_RANGE	ls_ap3220/ap3220init.c	/^enum LS_RANGE{$/;"	g	file:
+LS_RANGE1	ls_ap3220/ap3220init.c	/^        LS_RANGE1 = 1,\/\/0--65535 lux	0x00$/;"	e	enum:LS_RANGE	file:
+LS_RANGE2	ls_ap3220/ap3220init.c	/^        LS_RANGE2,\/\/0--16383 lux	0x10$/;"	e	enum:LS_RANGE	file:
+LS_RANGE3	ls_ap3220/ap3220init.c	/^        LS_RANGE3,\/\/0--4096 lux		0x20$/;"	e	enum:LS_RANGE	file:
+LS_RANGE4	ls_ap3220/ap3220init.c	/^        LS_RANGE4,\/\/default 0--1023 lux$/;"	e	enum:LS_RANGE	file:
+MAX_CHOOSE_ALSPS_NUM	inc/alsps.h	67;"	d
+MAX_THRESHOLD_HIGH	inc/cust_alsps.h	22;"	d
+MIN_THRESHOLD_LOW	inc/cust_alsps.h	23;"	d
+NOT_USEFUL	ls_ap3220/ap3220.c	73;"	d	file:
+NVRAM_IOCTL_GET_CAIL	ls_ap3220/ap3220.c	72;"	d	file:
+NVRAM_IOCTL_SET_HOR_LIGHT	ls_ap3220/ap3220.c	68;"	d	file:
+NVRAM_IOCTL_SET_HOR_PS	ls_ap3220/ap3220.c	70;"	d	file:
+NVRAM_IOCTL_SET_VER_LIGHT	ls_ap3220/ap3220.c	69;"	d	file:
+NVRAM_IOCTL_SET_VER_PS	ls_ap3220/ap3220.c	71;"	d	file:
+OP_ALSPS_DELAY	inc/alsps.h	47;"	d
+OP_ALSPS_ENABLE	inc/alsps.h	48;"	d
+OP_ALSPS_GET_DATA	inc/alsps.h	49;"	d
+PS_CALI_DATA_STRUCT	cm36558/cm36558.c	/^struct PS_CALI_DATA_STRUCT {$/;"	s	file:
+PS_CALI_DATA_STRUCT	cm36652-new/cm36652.c	/^struct PS_CALI_DATA_STRUCT {$/;"	s	file:
+PS_CAL_ITEMS	ls_ap3220/alsps_3220.h	158;"	d
+SAMPLE_PS_25	ls_ap3220/alsps_3220.h	153;"	d
+SAMPLE_PS_FACE	ls_ap3220/alsps_3220.h	152;"	d
+SENSOR_BOTH_FAILED	ls_ap3220/ap3xx6c.h	39;"	d
+SENSOR_BOTH_OK	ls_ap3220/ap3xx6c.h	40;"	d
+SENSOR_HOR_FAILED	ls_ap3220/ap3xx6c.h	38;"	d
+SENSOR_HOR_OK	ls_ap3220/ap3xx6c.h	36;"	d
+SENSOR_OFF	alsps.c	18;"	d	file:
+SENSOR_ON	alsps.c	19;"	d	file:
+SENSOR_VER_OK	ls_ap3220/ap3xx6c.h	37;"	d
+SETCALI	inc/alsps_factory.h	46;"	d
+SET_TH	inc/alsps_factory.h	52;"	d
+STANDARD_LIGHT_VALUE_HOR	ls_ap3220/ap3xx6c.h	63;"	d
+STANDARD_LIGHT_VALUE_VER	ls_ap3220/ap3xx6c.h	64;"	d
+STANDARD_PS_HOR_VALUE	ls_ap3220/alsps_3220.h	154;"	d
+STANDARD_PS_VER_VALUE	ls_ap3220/alsps_3220.h	149;"	d
+TRACE_ALS	ls_ap3220/ap3220.c	/^	TRACE_ALS = 0x2,$/;"	e	enum:__anon5	file:
+TRACE_BIT	ls_ap3220/ap3220.c	/^} TRACE_BIT;$/;"	t	typeref:enum:__anon5	file:
+TRACE_DEBUG	ls_ap3220/ap3220.c	/^	TRACE_DEBUG = 0x1,$/;"	e	enum:__anon5	file:
+TRACE_PS	ls_ap3220/ap3220.c	/^	TRACE_PS = 0x4,$/;"	e	enum:__anon5	file:
+__AAL_CONTROL_H__	inc/aal_control.h	15;"	d
+__ALSPSHUB_H__	alspshub/alspshub.h	16;"	d
+__ALSPS_3220__	ls_ap3220/alsps_3220.h	2;"	d
+__ALSPS_FACTORY_H__	inc/alsps_factory.h	15;"	d
+__ALSPS_H__	inc/alsps.h	15;"	d
+__AP3xx6_H__	ls_ap3220/ap3xx6c.h	32;"	d
+__CM36558_H__	cm36558/cm36558.h	16;"	d
+__CM36652_CS_H__	cm36652-new/cm36652_cs.h	16;"	d
+__CM36652_H__	cm36652-new/cm36652.h	16;"	d
+__CUST_ALSPS_H__	inc/cust_alsps.h	15;"	d
+_align	cm36558/cm36558.c	/^	u8 _align;$/;"	m	struct:CM36558_priv	file:
+_align	cm36652-new/cm36652.c	/^	u8			_align;$/;"	m	struct:cm36652_priv	file:
+_align	ls_ap3220/ap3220.c	/^	u8		_align;$/;"	m	struct:ap3xx6_priv	file:
+aal_use	aal_control.c	/^int aal_use = 0;$/;"	v
+access_data_fifo	inc/alsps.h	/^	int (*access_data_fifo)(void);\/* version2.used for flush operate *\/$/;"	m	struct:als_control_path
+access_data_fifo	inc/alsps.h	/^	int (*access_data_fifo)(void);\/* version2.used for flush operate *\/$/;"	m	struct:ps_control_path
+action	cm36558/cm36558.h	/^	uint16_t action;$/;"	m	struct:__anon10
+action	cm36558/cm36558.h	/^	uint16_t action;$/;"	m	struct:__anon11
+action	cm36558/cm36558.h	/^	uint16_t action;$/;"	m	struct:__anon12
+action	cm36558/cm36558.h	/^	uint16_t action;$/;"	m	struct:__anon13
+action	cm36558/cm36558.h	/^	uint16_t action;$/;"	m	struct:__anon14
+action	cm36558/cm36558.h	/^	uint16_t action;$/;"	m	struct:__anon8
+action	cm36558/cm36558.h	/^	uint16_t action;$/;"	m	struct:__anon9
+action	cm36652-new/cm36652.h	/^	uint16_t	action;$/;"	m	struct:CM36652_CUST
+action	cm36652-new/cm36652.h	/^	uint16_t	action;$/;"	m	struct:CM36652_GET_ALS_RAW_DATA
+action	cm36652-new/cm36652.h	/^	uint16_t	action;$/;"	m	struct:CM36652_GET_PS_RAW_DATA
+action	cm36652-new/cm36652.h	/^	uint16_t	action;$/;"	m	struct:CM36652_SET_CALI
+action	cm36652-new/cm36652.h	/^	uint16_t	action;$/;"	m	struct:CM36652_SET_EINT_INFO
+action	cm36652-new/cm36652.h	/^	uint16_t	action;$/;"	m	struct:CM36652_SET_PS_THRESHOLD
+action	cm36652-new/cm36652.h	/^	uint16_t action;$/;"	m	struct:CM36652_SET_CUST
+adckey	ls_ap3220/alsps_3220.h	/^	unsigned int adckey;$/;"	m	struct:ps_adc_adjust
+addr	ls_ap3220/ap3220.c	/^	struct ap3xx6_i2c_addr addr;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::ap3xx6_i2c_addr	file:
+als	alspshub/alspshub.c	/^	u16			als;$/;"	m	struct:alspshub_ipi_data	file:
+als	cm36558/cm36558.c	/^	u16 als;$/;"	m	struct:CM36558_priv	file:
+als	cm36558/cm36558.h	/^	uint16_t als;$/;"	m	struct:__anon13
+als	cm36652-new/cm36652.c	/^	u16			als;$/;"	m	struct:cm36652_priv	file:
+als	cm36652-new/cm36652.h	/^	uint16_t	als;$/;"	m	struct:CM36652_GET_ALS_RAW_DATA
+als	ls_ap3220/ap3220.c	/^	u16		als;$/;"	m	struct:ap3xx6_priv	file:
+als_cmd_val	cm36558/cm36558.c	/^	atomic_t als_cmd_val;	\/*the cmd value can't be read, stored in ram *\/$/;"	m	struct:CM36558_priv	file:
+als_cmd_val	cm36652-new/cm36652.c	/^	atomic_t	als_cmd_val;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:cm36652_priv	file:
+als_cmd_val	ls_ap3220/ap3220.c	/^	atomic_t	als_cmd_val;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv	file:
+als_control_path	inc/alsps.h	/^struct als_control_path {$/;"	s
+als_ctl	inc/alsps.h	/^	struct als_control_path	als_ctl;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::als_control_path
+als_data	inc/alsps.h	/^	struct als_data_path	als_data;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::als_data_path
+als_data	inc/alsps.h	/^	struct hwm_sensor_data als_data;$/;"	m	struct:alsps_data	typeref:struct:alsps_data::hwm_sensor_data
+als_data_path	inc/alsps.h	/^struct als_data_path {$/;"	s
+als_data_report	alsps.c	/^int als_data_report(struct input_dev *dev, int value, int status)$/;"	f
+als_deb_end	cm36558/cm36558.c	/^	atomic_t als_deb_end;	\/*the jiffies representing the end of debounce *\/$/;"	m	struct:CM36558_priv	file:
+als_deb_end	cm36652-new/cm36652.c	/^	atomic_t	als_deb_end;	\/*the jiffies representing the end of debounce*\/$/;"	m	struct:cm36652_priv	file:
+als_deb_end	ls_ap3220/ap3220.c	/^	atomic_t	als_deb_end;	\/*the jiffies representing the end of debounce*\/$/;"	m	struct:ap3xx6_priv	file:
+als_deb_on	cm36558/cm36558.c	/^	atomic_t als_deb_on;	\/*indicates if the debounce is on *\/$/;"	m	struct:CM36558_priv	file:
+als_deb_on	cm36652-new/cm36652.c	/^	atomic_t	als_deb_on;	\/*indicates if the debounce is on*\/$/;"	m	struct:cm36652_priv	file:
+als_deb_on	ls_ap3220/ap3220.c	/^	atomic_t	als_deb_on;	\/*indicates if the debounce is on*\/$/;"	m	struct:ap3xx6_priv	file:
+als_debounce	cm36558/cm36558.c	/^	atomic_t als_debounce;	\/*debounce time after enabling als *\/$/;"	m	struct:CM36558_priv	file:
+als_debounce	cm36652-new/cm36652.c	/^	atomic_t	als_debounce;	\/*debounce time after enabling als*\/$/;"	m	struct:cm36652_priv	file:
+als_debounce	ls_ap3220/ap3220.c	/^	atomic_t	als_debounce;	\/*debounce time after enabling als*\/$/;"	m	struct:ap3xx6_priv	file:
+als_enable_data	alsps.c	/^static int als_enable_data(int enable)$/;"	f	file:
+als_enable_nodata	alspshub/alspshub.c	/^static int als_enable_nodata(int en)$/;"	f	file:
+als_enable_nodata	cm36558/cm36558.c	/^static int als_enable_nodata(int en)$/;"	f	file:
+als_enable_nodata	cm36652-new/cm36652.c	/^static int als_enable_nodata(int en)$/;"	f	file:
+als_get_data	alspshub/alspshub.c	/^static int als_get_data(int *value, int *status)$/;"	f	file:
+als_get_data	cm36558/cm36558.c	/^static int als_get_data(int *value, int *status)$/;"	f	file:
+als_get_data	cm36652-new/cm36652.c	/^static int als_get_data(int *value, int *status)$/;"	f	file:
+als_get_raw_data	inc/alsps.h	/^	int (*als_get_raw_data)(int *als_value);$/;"	m	struct:als_data_path
+als_level	cm36558/cm36558.c	/^	u32 als_level[C_CUST_ALS_LEVEL - 1];$/;"	m	struct:CM36558_priv	file:
+als_level	cm36652-new/cm36652.c	/^	u32			als_level[C_CUST_ALS_LEVEL-1];$/;"	m	struct:cm36652_priv	file:
+als_level	inc/cust_alsps.h	/^	unsigned int    als_level[C_CUST_ALS_LEVEL-1];$/;"	m	struct:alsps_hw
+als_level	ls_ap3220/ap3220.c	/^	u32		als_level[C_CUST_ALS_LEVEL-1];$/;"	m	struct:ap3xx6_priv	file:
+als_level_num	cm36558/cm36558.c	/^	u16 als_level_num;$/;"	m	struct:CM36558_priv	file:
+als_level_num	cm36652-new/cm36652.c	/^	u16			als_level_num;$/;"	m	struct:cm36652_priv	file:
+als_level_num	ls_ap3220/ap3220.c	/^	u16		als_level_num;$/;"	m	struct:ap3xx6_priv	file:
+als_modulus	cm36558/cm36558.c	/^	u16 als_modulus;$/;"	m	struct:CM36558_priv	file:
+als_modulus	cm36652-new/cm36652.c	/^	u16		als_modulus;$/;"	m	struct:cm36652_priv	file:
+als_modulus	ls_ap3220/ap3220.c	/^	u16			als_modulus;$/;"	m	struct:ap3xx6_priv	file:
+als_open_report_data	alspshub/alspshub.c	/^static int als_open_report_data(int open)$/;"	f	file:
+als_open_report_data	cm36558/cm36558.c	/^static int als_open_report_data(int open)$/;"	f	file:
+als_open_report_data	cm36652-new/cm36652.c	/^static int als_open_report_data(int open)$/;"	f	file:
+als_poll	alsps.c	/^static void als_poll(unsigned long data)$/;"	f	file:
+als_power_vio_id	inc/cust_alsps.h	/^	int als_power_vio_id;                                   \/*!< the VIO power id of the als chip *\/$/;"	m	struct:alsps_hw
+als_power_vio_vol	inc/cust_alsps.h	/^	int als_power_vio_vol;                                  \/*!< the VIO power voltage of the als chip *\/$/;"	m	struct:alsps_hw
+als_ps_driver	alsps.c	/^static struct platform_driver als_ps_driver = {$/;"	v	typeref:struct:platform_driver	file:
+als_ps_of_match	alsps.c	/^static const struct of_device_id als_ps_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+als_ps_probe	alsps.c	/^static int als_ps_probe(struct platform_device *pdev)$/;"	f	file:
+als_ps_remove	alsps.c	/^static int als_ps_remove(struct platform_device *pdev)$/;"	f	file:
+als_real_enable	alsps.c	/^static int als_real_enable(int enable)$/;"	f	file:
+als_register_control_path	alsps.c	/^int als_register_control_path(struct als_control_path *ctl)$/;"	f
+als_register_data_path	alsps.c	/^int als_register_data_path(struct als_data_path *data)$/;"	f
+als_set_delay	alspshub/alspshub.c	/^static int als_set_delay(u64 ns)$/;"	f	file:
+als_set_delay	cm36558/cm36558.c	/^static int als_set_delay(u64 ns)$/;"	f	file:
+als_set_delay	cm36652-new/cm36652.c	/^static int als_set_delay(u64 ns)$/;"	f	file:
+als_show_active	alsps.c	/^static ssize_t als_show_active(struct device *dev,$/;"	f	file:
+als_show_batch	alsps.c	/^static ssize_t als_show_batch(struct device *dev,$/;"	f	file:
+als_show_delay	alsps.c	/^static ssize_t als_show_delay(struct device *dev,$/;"	f	file:
+als_show_devnum	alsps.c	/^static ssize_t als_show_devnum(struct device *dev,$/;"	f	file:
+als_show_flush	alsps.c	/^static ssize_t als_show_flush(struct device *dev,$/;"	f	file:
+als_store_active	alsps.c	/^static ssize_t als_store_active(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+als_store_active_kernel	alsps.c	/^int als_store_active_kernel(int buf)$/;"	f
+als_store_batch	alsps.c	/^static ssize_t als_store_batch(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+als_store_delay	alsps.c	/^static ssize_t als_store_delay(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+als_store_flush	alsps.c	/^static ssize_t als_store_flush(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+als_suspend	alspshub/alspshub.c	/^	atomic_t	als_suspend;$/;"	m	struct:alspshub_ipi_data	file:
+als_suspend	cm36558/cm36558.c	/^	atomic_t als_suspend;$/;"	m	struct:CM36558_priv	file:
+als_suspend	cm36652-new/cm36652.c	/^	atomic_t	als_suspend;$/;"	m	struct:cm36652_priv	file:
+als_suspend	ls_ap3220/ap3220.c	/^	atomic_t	als_suspend;$/;"	m	struct:ap3xx6_priv	file:
+als_thd_val_high	alspshub/alspshub.c	/^	atomic_t	als_thd_val_high;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:alspshub_ipi_data	file:
+als_thd_val_high	cm36558/cm36558.c	/^	atomic_t als_thd_val_high;	\/*the cmd value can't be read, stored in ram *\/$/;"	m	struct:CM36558_priv	file:
+als_thd_val_high	cm36652-new/cm36652.c	/^	atomic_t	als_thd_val_high;	 \/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:cm36652_priv	file:
+als_thd_val_low	alspshub/alspshub.c	/^	atomic_t	als_thd_val_low;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:alspshub_ipi_data	file:
+als_thd_val_low	cm36558/cm36558.c	/^	atomic_t als_thd_val_low;	\/*the cmd value can't be read, stored in ram *\/$/;"	m	struct:CM36558_priv	file:
+als_thd_val_low	cm36652-new/cm36652.c	/^	atomic_t	als_thd_val_low;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:cm36652_priv	file:
+als_threshold_high	inc/cust_alsps.h	/^	unsigned int    als_threshold_high;$/;"	m	struct:alsps_hw
+als_threshold_low	inc/cust_alsps.h	/^	unsigned int    als_threshold_low;$/;"	m	struct:alsps_hw
+als_value	cm36558/cm36558.c	/^	u32 als_value[C_CUST_ALS_LEVEL];$/;"	m	struct:CM36558_priv	file:
+als_value	cm36652-new/cm36652.c	/^	u32			als_value[C_CUST_ALS_LEVEL];$/;"	m	struct:cm36652_priv	file:
+als_value	inc/cust_alsps.h	/^	unsigned int    als_value[C_CUST_ALS_LEVEL];    \/*!< the value reported in each level *\/$/;"	m	struct:alsps_hw
+als_value	ls_ap3220/ap3220.c	/^	u32		als_value[C_CUST_ALS_LEVEL];$/;"	m	struct:ap3xx6_priv	file:
+als_value_num	cm36558/cm36558.c	/^	u16 als_value_num;$/;"	m	struct:CM36558_priv	file:
+als_value_num	cm36652-new/cm36652.c	/^	u16			als_value_num;$/;"	m	struct:cm36652_priv	file:
+als_value_num	ls_ap3220/ap3220.c	/^	u16		als_value_num;$/;"	m	struct:ap3xx6_priv	file:
+als_window_loss	inc/cust_alsps.h	/^	unsigned int    als_window_loss;                \/*!< the window loss  *\/$/;"	m	struct:alsps_hw
+als_work_func	alsps.c	/^static void als_work_func(struct work_struct *work)$/;"	f	file:
+alspsPltFmDev	cm36558/cm36558.c	/^struct platform_device *alspsPltFmDev;$/;"	v	typeref:struct:platform_device
+alspsPltFmDev	cm36652-new/cm36652.c	/^struct platform_device *alspsPltFmDev;$/;"	v	typeref:struct:platform_device
+alspsPltFmDev	ls_ap3220/ap3220.c	/^struct platform_device *alspsPltFmDev;$/;"	v	typeref:struct:platform_device
+alsps_aal_enable	alsps.c	/^int alsps_aal_enable(int enable)$/;"	f
+alsps_aal_get_data	alsps.c	/^int alsps_aal_get_data(void)$/;"	f
+alsps_aal_get_status	alsps.c	/^int alsps_aal_get_status(void)$/;"	f
+alsps_attribute_group	alsps.c	/^static struct attribute_group alsps_attribute_group = {$/;"	v	typeref:struct:attribute_group	file:
+alsps_attributes	alsps.c	/^static struct attribute *alsps_attributes[] = {$/;"	v	typeref:struct:attribute	file:
+alsps_context	inc/alsps.h	/^struct alsps_context {$/;"	s
+alsps_context_alloc_object	alsps.c	/^static struct alsps_context *alsps_context_alloc_object(void)$/;"	f	file:
+alsps_context_obj	alsps.c	/^struct alsps_context *alsps_context_obj = NULL;$/;"	v	typeref:struct:alsps_context
+alsps_cust	cm36558/cm36558.c	/^struct alsps_hw alsps_cust;$/;"	v	typeref:struct:alsps_hw
+alsps_cust	cm36652-new/cm36652.c	/^struct alsps_hw alsps_cust;$/;"	v	typeref:struct:alsps_hw
+alsps_cust	ls_ap3220/ap3220.c	/^struct alsps_hw alsps_cust;$/;"	v	typeref:struct:alsps_hw
+alsps_data	inc/alsps.h	/^struct alsps_data {$/;"	s
+alsps_driver_add	alsps.c	/^EXPORT_SYMBOL_GPL(alsps_driver_add);$/;"	v
+alsps_driver_add	alsps.c	/^int alsps_driver_add(struct alsps_init_info *obj)$/;"	f
+alsps_drv_obj	inc/alsps.h	/^struct alsps_drv_obj {$/;"	s
+alsps_exit	alsps.c	/^static void __exit alsps_exit(void)$/;"	f	file:
+alsps_factory_compat_ioctl	alsps_factory.c	/^static long alsps_factory_compat_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+alsps_factory_device	alsps_factory.c	/^static struct miscdevice alsps_factory_device = {$/;"	v	typeref:struct:miscdevice	file:
+alsps_factory_device_init	alsps_factory.c	/^int alsps_factory_device_init(void)$/;"	f
+alsps_factory_fops	alsps_factory.c	/^static const struct file_operations alsps_factory_fops = {$/;"	v	typeref:struct:file_operations	file:
+alsps_factory_open	alsps_factory.c	/^static int alsps_factory_open(struct inode *inode, struct file *file)$/;"	f	file:
+alsps_factory_release	alsps_factory.c	/^static int alsps_factory_release(struct inode *inode, struct file *file)$/;"	f	file:
+alsps_factory_unlocked_ioctl	alsps_factory.c	/^static long alsps_factory_unlocked_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+alsps_hw	inc/cust_alsps.h	/^struct alsps_hw {$/;"	s
+alsps_init	alsps.c	/^late_initcall(alsps_init);$/;"	v
+alsps_init	alsps.c	/^static int __init alsps_init(void)$/;"	f	file:
+alsps_init_info	inc/alsps.h	/^struct alsps_init_info {$/;"	s
+alsps_init_list	alsps.c	/^static struct alsps_init_info *alsps_init_list[MAX_CHOOSE_ALSPS_NUM] = {0};$/;"	v	typeref:struct:alsps_init_info	file:
+alsps_input_init	alsps.c	/^static int alsps_input_init(struct alsps_context *cxt)$/;"	f	file:
+alsps_misc_dev_init	alsps.c	/^static bool alsps_misc_dev_init;$/;"	v	file:
+alsps_misc_init	alsps.c	/^static int alsps_misc_init(struct alsps_context *cxt)$/;"	f	file:
+alsps_of_match	cm36558/cm36558.c	/^static const struct of_device_id alsps_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+alsps_of_match	cm36652-new/cm36652.c	/^static const struct of_device_id alsps_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+alsps_of_match	ls_ap3220/ap3220.c	/^static const struct of_device_id alsps_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+alsps_of_match_vertical	ls_ap3220/ap3220.c	/^static const struct of_device_id alsps_of_match_vertical[] = {$/;"	v	typeref:struct:of_device_id	file:
+alsps_op_mutex	inc/alsps.h	/^	struct mutex			alsps_op_mutex;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::mutex
+alsps_operate	inc/alsps.h	/^	int (*alsps_operate)(void *self, uint32_t command, void *buff_in, int size_in,$/;"	m	struct:alsps_drv_obj
+alsps_probe	alsps.c	/^static int alsps_probe(void)$/;"	f	file:
+alsps_real_driver_init	alsps.c	/^static int alsps_real_driver_init(void)$/;"	f	file:
+alsps_remove	alsps.c	/^static int alsps_remove(void)$/;"	f	file:
+alsps_show_change	alsps.c	/^static ssize_t alsps_show_change(struct device *dev,$/;"	f	file:
+alsps_store_change	alsps.c	/^static ssize_t alsps_store_change(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+alspshub_attr_list	alspshub/alspshub.c	/^static struct driver_attribute *alspshub_attr_list[] = {$/;"	v	typeref:struct:driver_attribute	file:
+alspshub_create_attr	alspshub/alspshub.c	/^static int alspshub_create_attr(struct device_driver *driver)$/;"	f	file:
+alspshub_delete_attr	alspshub/alspshub.c	/^static int alspshub_delete_attr(struct device_driver *driver)$/;"	f	file:
+alspshub_device	alspshub/alspshub.c	/^static struct platform_device alspshub_device = {$/;"	v	typeref:struct:platform_device	file:
+alspshub_driver	alspshub/alspshub.c	/^static struct platform_driver alspshub_driver = {$/;"	v	typeref:struct:platform_driver	file:
+alspshub_eint_work	alspshub/alspshub.c	/^static void alspshub_eint_work(struct work_struct *work)$/;"	f	file:
+alspshub_exit	alspshub/alspshub.c	/^module_exit(alspshub_exit);$/;"	v
+alspshub_exit	alspshub/alspshub.c	/^static void __exit alspshub_exit(void)$/;"	f	file:
+alspshub_fops	alspshub/alspshub.c	/^static const struct file_operations alspshub_fops = {$/;"	v	typeref:struct:file_operations	file:
+alspshub_init	alspshub/alspshub.c	/^module_init(alspshub_init);$/;"	v
+alspshub_init	alspshub/alspshub.c	/^static int __init alspshub_init(void)$/;"	f	file:
+alspshub_init_done_work	alspshub/alspshub.c	/^static void alspshub_init_done_work(struct work_struct *work)$/;"	f	file:
+alspshub_init_flag	alspshub/alspshub.c	/^static int alspshub_init_flag = -1;$/;"	v	file:
+alspshub_init_info	alspshub/alspshub.c	/^static struct alsps_init_info alspshub_init_info = {$/;"	v	typeref:struct:alsps_init_info	file:
+alspshub_ipi_data	alspshub/alspshub.c	/^struct alspshub_ipi_data {$/;"	s	file:
+alspshub_local_init	alspshub/alspshub.c	/^static int alspshub_local_init(void)$/;"	f	file:
+alspshub_local_remove	alspshub/alspshub.c	/^static int alspshub_local_remove(void)$/;"	f	file:
+alspshub_misc_device	alspshub/alspshub.c	/^static struct miscdevice alspshub_misc_device = {$/;"	v	typeref:struct:miscdevice	file:
+alspshub_open	alspshub/alspshub.c	/^static int alspshub_open(struct inode *inode, struct file *file)$/;"	f	file:
+alspshub_probe	alspshub/alspshub.c	/^static int alspshub_probe(struct platform_device *pdev)$/;"	f	file:
+alspshub_read_als	alspshub/alspshub.c	/^long alspshub_read_als(u16 *als)$/;"	f
+alspshub_read_ps	alspshub/alspshub.c	/^long alspshub_read_ps(u8 *ps)$/;"	f
+alspshub_release	alspshub/alspshub.c	/^static int alspshub_release(struct inode *inode, struct file *file)$/;"	f	file:
+alspshub_remove	alspshub/alspshub.c	/^static int alspshub_remove(struct platform_device *pdev)$/;"	f	file:
+alspshub_resume	alspshub/alspshub.c	/^static int alspshub_resume(struct platform_device *pdev)$/;"	f	file:
+alspshub_show_als	alspshub/alspshub.c	/^static ssize_t alspshub_show_als(struct device_driver *ddri, char *buf)$/;"	f	file:
+alspshub_show_alslv	alspshub/alspshub.c	/^static ssize_t alspshub_show_alslv(struct device_driver *ddri, char *buf)$/;"	f	file:
+alspshub_show_alsval	alspshub/alspshub.c	/^static ssize_t alspshub_show_alsval(struct device_driver *ddri, char *buf)$/;"	f	file:
+alspshub_show_ps	alspshub/alspshub.c	/^static ssize_t alspshub_show_ps(struct device_driver *ddri, char *buf)$/;"	f	file:
+alspshub_show_reg	alspshub/alspshub.c	/^static ssize_t alspshub_show_reg(struct device_driver *ddri, char *buf)$/;"	f	file:
+alspshub_show_trace	alspshub/alspshub.c	/^static ssize_t alspshub_show_trace(struct device_driver *ddri, char *buf)$/;"	f	file:
+alspshub_store_trace	alspshub/alspshub.c	/^static ssize_t alspshub_store_trace(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+alspshub_suspend	alspshub/alspshub.c	/^static int alspshub_suspend(struct platform_device *pdev, pm_message_t msg)$/;"	f	file:
+alspshub_unlocked_ioctl	alspshub/alspshub.c	/^static long alspshub_unlocked_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+ap3220_change_ps_threshold	ls_ap3220/ap3220init.c	/^int ap3220_change_ps_threshold(struct i2c_client *client_res)	\/\/返回值，等级，0,1,2；返回值。$/;"	f
+ap3220_ps_threshole_hor	ls_ap3220/ap3220init.c	/^static u16 ap3220_ps_threshole_hor[AP3220_PS_THRESHOLE_LEVELS] = {$/;"	v	file:
+ap3220_ps_threshole_ver	ls_ap3220/ap3220init.c	/^static u16 ap3220_ps_threshole_ver[AP3220_PS_THRESHOLE_LEVELS] = {$/;"	v	file:
+ap3xx6_Calibration	ls_ap3220/ap3220.c	/^int ap3xx6_Calibration(struct i2c_client *client)$/;"	f
+ap3xx6_Calibration_every_time	ls_ap3220/ap3220.c	/^static int ap3xx6_Calibration_every_time(struct i2c_client *client)$/;"	f	file:
+ap3xx6_NUM_CACHABLE_REGS	ls_ap3220/ap3220.c	1432;"	d	file:
+ap3xx6_als_data_show	ls_ap3220/ap3220.c	/^static ssize_t ap3xx6_als_data_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_als_enable_nodata	ls_ap3220/ap3220.c	/^static int ap3xx6_als_enable_nodata(int en)$/;"	f	file:
+ap3xx6_als_get_data	ls_ap3220/ap3220.c	/^static int ap3xx6_als_get_data(int *value, int *status)$/;"	f	file:
+ap3xx6_als_open_report_data	ls_ap3220/ap3220.c	/^static int ap3xx6_als_open_report_data(int open)$/;"	f	file:
+ap3xx6_als_rawdata_show	ls_ap3220/ap3220.c	/^static ssize_t ap3xx6_als_rawdata_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_als_set_delay	ls_ap3220/ap3220.c	/^static int ap3xx6_als_set_delay(u64 ns)$/;"	f	file:
+ap3xx6_attr_list	ls_ap3220/ap3220.c	/^static struct driver_attribute *ap3xx6_attr_list[] = {$/;"	v	typeref:struct:driver_attribute	file:
+ap3xx6_check_and_clear_intr	ls_ap3220/ap3220.c	/^static int ap3xx6_check_and_clear_intr(struct i2c_client *client)$/;"	f	file:
+ap3xx6_create_attr	ls_ap3220/ap3220.c	/^static int ap3xx6_create_attr(struct device_driver *driver)$/;"	f	file:
+ap3xx6_delete_attr	ls_ap3220/ap3220.c	/^static int ap3xx6_delete_attr(struct device_driver *driver)$/;"	f	file:
+ap3xx6_device	ls_ap3220/ap3220.c	/^static struct miscdevice ap3xx6_device = {$/;"	v	typeref:struct:miscdevice	file:
+ap3xx6_early_suspend	ls_ap3220/ap3220.c	/^static void ap3xx6_early_suspend(struct early_suspend *h)$/;"	f	file:
+ap3xx6_eint_func	ls_ap3220/ap3220.c	/^void ap3xx6_eint_func(struct ap3xx6_priv *obj)$/;"	f
+ap3xx6_eint_handler	ls_ap3220/ap3220.c	/^static irqreturn_t ap3xx6_eint_handler(int irq, void *desc)$/;"	f	file:
+ap3xx6_eint_ver_handler	ls_ap3220/ap3220.c	/^static irqreturn_t ap3xx6_eint_ver_handler(int irq, void *desc)$/;"	f	file:
+ap3xx6_eint_work	ls_ap3220/ap3220.c	/^static void ap3xx6_eint_work(struct work_struct *work)$/;"	f	file:
+ap3xx6_em_read	ls_ap3220/ap3220.c	/^static ssize_t ap3xx6_em_read(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_em_write	ls_ap3220/ap3220.c	/^static ssize_t ap3xx6_em_write(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+ap3xx6_enable_als	ls_ap3220/ap3220.c	/^static int ap3xx6_enable_als(struct i2c_client *client, int enable)$/;"	f	file:
+ap3xx6_enable_ps	ls_ap3220/ap3220.c	/^static int ap3xx6_enable_ps(struct i2c_client *client, int enable)$/;"	f	file:
+ap3xx6_enable_ps_interrupt	ls_ap3220/ap3220.c	/^static int ap3xx6_enable_ps_interrupt(struct i2c_client *client, int enable)$/;"	f	file:
+ap3xx6_exit	ls_ap3220/ap3220.c	/^module_exit(ap3xx6_exit);$/;"	v
+ap3xx6_exit	ls_ap3220/ap3220.c	/^static void __exit ap3xx6_exit(void)$/;"	f	file:
+ap3xx6_fops	ls_ap3220/ap3220.c	/^static const struct file_operations ap3xx6_fops = {$/;"	v	typeref:struct:file_operations	file:
+ap3xx6_get_addr	ls_ap3220/ap3220.c	/^int ap3xx6_get_addr(struct alsps_hw *hw, struct ap3xx6_i2c_addr *addr)$/;"	f
+ap3xx6_get_als_value	ls_ap3220/ap3220.c	/^static int ap3xx6_get_als_value(struct ap3xx6_priv *obj, u16 als)$/;"	f	file:
+ap3xx6_get_ps_value	ls_ap3220/ap3220.c	/^static int ap3xx6_get_ps_value(struct ap3xx6_priv *obj, u16 ps)$/;"	f	file:
+ap3xx6_i2c_addr	ls_ap3220/ap3220.c	/^struct ap3xx6_i2c_addr {	\/*define a series of i2c slave address*\/$/;"	s	file:
+ap3xx6_i2c_client	ls_ap3220/ap3220.c	/^static struct i2c_client *ap3xx6_i2c_client = NULL;$/;"	v	typeref:struct:i2c_client	file:
+ap3xx6_i2c_client_horizontal	ls_ap3220/ap3220.c	/^static struct i2c_client *ap3xx6_i2c_client_horizontal = NULL;\/\/add anthor alsps$/;"	v	typeref:struct:i2c_client	file:
+ap3xx6_i2c_client_vertical	ls_ap3220/ap3220.c	/^static struct i2c_client *ap3xx6_i2c_client_vertical = NULL;$/;"	v	typeref:struct:i2c_client	file:
+ap3xx6_i2c_detect	ls_ap3220/ap3220.c	/^static int ap3xx6_i2c_detect(struct i2c_client *client, struct i2c_board_info *info)$/;"	f	file:
+ap3xx6_i2c_detect_vertical	ls_ap3220/ap3220.c	/^static int ap3xx6_i2c_detect_vertical(struct i2c_client *client, struct i2c_board_info *info)$/;"	f	file:
+ap3xx6_i2c_driver	ls_ap3220/ap3220.c	/^static struct i2c_driver ap3xx6_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ap3xx6_i2c_driver_vertical	ls_ap3220/ap3220.c	/^static struct i2c_driver ap3xx6_i2c_driver_vertical = {$/;"	v	typeref:struct:i2c_driver	file:
+ap3xx6_i2c_id	ls_ap3220/ap3220.c	/^static const struct i2c_device_id ap3xx6_i2c_id[] = {{AP3XX6_DEV_NAME, 0}, {} };$/;"	v	typeref:struct:i2c_device_id	file:
+ap3xx6_i2c_id_vertical	ls_ap3220/ap3220.c	/^static const struct i2c_device_id ap3xx6_i2c_id_vertical[] = {{AP3XX6_DEV_NAME_vertical, 0}, {} };$/;"	v	typeref:struct:i2c_device_id	file:
+ap3xx6_i2c_probe	ls_ap3220/ap3220.c	/^static int ap3xx6_i2c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ap3xx6_i2c_probe_vertical	ls_ap3220/ap3220.c	/^static int ap3xx6_i2c_probe_vertical(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ap3xx6_i2c_remove	ls_ap3220/ap3220.c	/^static int ap3xx6_i2c_remove(struct i2c_client *client)$/;"	f	file:
+ap3xx6_i2c_remove_vertical	ls_ap3220/ap3220.c	/^static int ap3xx6_i2c_remove_vertical(struct i2c_client *client)$/;"	f	file:
+ap3xx6_init	ls_ap3220/ap3220.c	/^module_init(ap3xx6_init);$/;"	v
+ap3xx6_init	ls_ap3220/ap3220.c	/^static int __init ap3xx6_init(void)$/;"	f	file:
+ap3xx6_init_client	ls_ap3220/ap3220.c	/^static int ap3xx6_init_client(struct i2c_client *client)$/;"	f	file:
+ap3xx6_init_flag	ls_ap3220/ap3220.c	/^static int ap3xx6_init_flag = -1; \/* 1<==>hor OK, 2 ver ok ,3 both ok -1 <==> fail *\/$/;"	v	file:
+ap3xx6_init_info	ls_ap3220/ap3220.c	/^static struct alsps_init_info ap3xx6_init_info = {$/;"	v	typeref:struct:alsps_init_info	file:
+ap3xx6_ioctl	ls_ap3220/ap3220.c	/^static long ap3xx6_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+ap3xx6_late_resume	ls_ap3220/ap3220.c	/^static void ap3xx6_late_resume(struct early_suspend *h)$/;"	f	file:
+ap3xx6_local_init	ls_ap3220/ap3220.c	/^static int ap3xx6_local_init(void)$/;"	f	file:
+ap3xx6_obj	ls_ap3220/ap3220.c	/^static struct ap3xx6_priv *ap3xx6_obj = NULL;$/;"	v	typeref:struct:ap3xx6_priv	file:
+ap3xx6_obj_horizontal	ls_ap3220/ap3220.c	/^static struct ap3xx6_priv *ap3xx6_obj_horizontal = NULL;$/;"	v	typeref:struct:ap3xx6_priv	file:
+ap3xx6_obj_vertical	ls_ap3220/ap3220.c	/^static struct ap3xx6_priv *ap3xx6_obj_vertical = NULL;$/;"	v	typeref:struct:ap3xx6_priv	file:
+ap3xx6_open	ls_ap3220/ap3220.c	/^static int ap3xx6_open(struct inode *inode, struct file *file)$/;"	f	file:
+ap3xx6_power	ls_ap3220/ap3220.c	/^static void ap3xx6_power(struct alsps_hw *hw, unsigned int on)$/;"	f	file:
+ap3xx6_priv	ls_ap3220/ap3220.c	/^struct ap3xx6_priv {$/;"	s	file:
+ap3xx6_ps_data_show	ls_ap3220/ap3220.c	/^static ssize_t ap3xx6_ps_data_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_ps_enable_nodata	ls_ap3220/ap3220.c	/^static int ap3xx6_ps_enable_nodata(int en)$/;"	f	file:
+ap3xx6_ps_get_data	ls_ap3220/ap3220.c	/^static int ap3xx6_ps_get_data(int *value, int *status)$/;"	f	file:
+ap3xx6_ps_open_report_data	ls_ap3220/ap3220.c	/^static int ap3xx6_ps_open_report_data(int open)$/;"	f	file:
+ap3xx6_ps_rawdata_show	ls_ap3220/ap3220.c	/^static ssize_t ap3xx6_ps_rawdata_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_ps_set_delay	ls_ap3220/ap3220.c	/^static int ap3xx6_ps_set_delay(u64 ns)$/;"	f	file:
+ap3xx6_read_als	ls_ap3220/ap3220.c	/^int ap3xx6_read_als(struct i2c_client *client, u16 *data)$/;"	f
+ap3xx6_read_ps	ls_ap3220/ap3220.c	/^int ap3xx6_read_ps(struct i2c_client *client, u16 *data)$/;"	f
+ap3xx6_read_reg	ls_ap3220/ap3220.c	/^int ap3xx6_read_reg(struct i2c_client *client,$/;"	f
+ap3xx6_release	ls_ap3220/ap3220.c	/^static int ap3xx6_release(struct inode *inode, struct file *file)$/;"	f	file:
+ap3xx6_remove	ls_ap3220/ap3220.c	/^static int ap3xx6_remove(void)$/;"	f	file:
+ap3xx6_set_ALSGain	ls_ap3220/ap3220.c	/^int ap3xx6_set_ALSGain(struct i2c_client *client, int val)$/;"	f
+ap3xx6_set_meantime	ls_ap3220/ap3220.c	/^static int ap3xx6_set_meantime(struct i2c_client *client, int val)$/;"	f	file:
+ap3xx6_set_pcrosstalk	ls_ap3220/ap3220.c	/^static int ap3xx6_set_pcrosstalk(struct i2c_client *client, int val)$/;"	f	file:
+ap3xx6_set_phthres	ls_ap3220/ap3220.c	/^int ap3xx6_set_phthres(struct i2c_client *client, int val)$/;"	f
+ap3xx6_set_plthres	ls_ap3220/ap3220.c	/^int ap3xx6_set_plthres(struct i2c_client *client, int val)$/;"	f
+ap3xx6_setup_eint	ls_ap3220/ap3220.c	/^int ap3xx6_setup_eint(struct i2c_client *client)$/;"	f
+ap3xx6_setup_eint_vertical	ls_ap3220/ap3220.c	/^int ap3xx6_setup_eint_vertical(void)$/;"	f
+ap3xx6_status_show	ls_ap3220/ap3220.c	/^static ssize_t ap3xx6_status_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_write_reg	ls_ap3220/ap3220.c	/^static int ap3xx6_write_reg(struct i2c_client *client,$/;"	f	file:
+apdev_name	ls_ap3220/ap3220.c	/^char *apdev_name = AP3XX6_DEV_NAME;$/;"	v
+cali	cm36558/cm36558.h	/^	int32_t cali;$/;"	m	struct:__anon10
+cali	cm36652-new/cm36652.h	/^	int32_t	 cali;$/;"	m	struct:CM36652_SET_CALI
+change_als_lux	ls_ap3220/ap3220init.c	/^int change_als_lux(struct i2c_client *client, unsigned int val)$/;"	f
+change_sensor_ic	ls_ap3220/ap3220.c	/^int change_sensor_ic(int buf)$/;"	f
+checksum	ls_ap3220/alsps_3220.h	/^	unsigned int checksum;$/;"	m	struct:ps_adc_adjust
+chose_defaul_sensor	ls_ap3220/ap3220.c	/^void chose_defaul_sensor(void)$/;"	f
+chrg_lock	ls_ap3220/ap3220.c	/^static struct wake_lock chrg_lock;$/;"	v	typeref:struct:wake_lock	file:
+clearCali	cm36558/cm36558.h	/^	CM36558_CLR_CALI clearCali;$/;"	m	union:__anon15
+clearCali	cm36652-new/cm36652.h	/^	struct CM36652_CUST			clearCali;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_CUST
+client	cm36558/cm36558.c	/^	struct i2c_client *client;$/;"	m	struct:CM36558_priv	typeref:struct:CM36558_priv::i2c_client	file:
+client	cm36652-new/cm36652.c	/^	struct i2c_client *client;$/;"	m	struct:cm36652_priv	typeref:struct:cm36652_priv::i2c_client	file:
+client	ls_ap3220/ap3220.c	/^	struct i2c_client *client;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::i2c_client	file:
+close	cm36558/cm36558.c	/^	int close;$/;"	m	struct:PS_CALI_DATA_STRUCT	file:
+close	cm36652-new/cm36652.c	/^	int close;$/;"	m	struct:PS_CALI_DATA_STRUCT	file:
+cm36652_attr_list	cm36652-new/cm36652.c	/^static struct driver_attribute *cm36652_attr_list[] = {$/;"	v	typeref:struct:driver_attribute	file:
+cm36652_check_intr	cm36652-new/cm36652.c	/^static int cm36652_check_intr(struct i2c_client *client)$/;"	f	file:
+cm36652_compat_ioctl	cm36652-new/cm36652.c	/^static long cm36652_compat_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+cm36652_create_attr	cm36652-new/cm36652.c	/^static int cm36652_create_attr(struct device_driver *driver)$/;"	f	file:
+cm36652_cs_mutex	cm36652-new/cm36652.c	/^struct mutex	cm36652_cs_mutex;$/;"	v	typeref:struct:mutex
+cm36652_delete_attr	cm36652-new/cm36652.c	/^static int cm36652_delete_attr(struct device_driver *driver)$/;"	f	file:
+cm36652_device	cm36652-new/cm36652.c	/^static struct miscdevice cm36652_device = {$/;"	v	typeref:struct:miscdevice	file:
+cm36652_eint_func	cm36652-new/cm36652.c	/^static void cm36652_eint_func(void)$/;"	f	file:
+cm36652_eint_handler	cm36652-new/cm36652.c	/^static irqreturn_t cm36652_eint_handler(int irq, void *desc)$/;"	f	file:
+cm36652_eint_work	cm36652-new/cm36652.c	/^static void cm36652_eint_work(struct work_struct *work)$/;"	f	file:
+cm36652_enable_als	cm36652-new/cm36652.c	/^int cm36652_enable_als(struct i2c_client *client, int enable)$/;"	f
+cm36652_enable_ps	cm36652-new/cm36652.c	/^int cm36652_enable_ps(struct i2c_client *client, int enable)$/;"	f
+cm36652_exit	cm36652-new/cm36652.c	/^module_exit(cm36652_exit);$/;"	v
+cm36652_exit	cm36652-new/cm36652.c	/^static void __exit cm36652_exit(void)$/;"	f	file:
+cm36652_fops	cm36652-new/cm36652.c	/^static const struct file_operations cm36652_fops = {$/;"	v	typeref:struct:file_operations	file:
+cm36652_get_als_value	cm36652-new/cm36652.c	/^static int cm36652_get_als_value(struct cm36652_priv *obj, u16 als)$/;"	f	file:
+cm36652_get_ps_value	cm36652-new/cm36652.c	/^static int cm36652_get_ps_value(struct cm36652_priv *obj, u8 ps)$/;"	f	file:
+cm36652_i2c_client	cm36652-new/cm36652.c	/^static struct i2c_client *cm36652_i2c_client;$/;"	v	typeref:struct:i2c_client	file:
+cm36652_i2c_detect	cm36652-new/cm36652.c	/^static int cm36652_i2c_detect(struct i2c_client *client, struct i2c_board_info *info)$/;"	f	file:
+cm36652_i2c_driver	cm36652-new/cm36652.c	/^static struct i2c_driver cm36652_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+cm36652_i2c_id	cm36652-new/cm36652.c	/^static const struct i2c_device_id cm36652_i2c_id[] = {{CM36652_DEV_NAME, 0}, {} };$/;"	v	typeref:struct:i2c_device_id	file:
+cm36652_i2c_probe	cm36652-new/cm36652.c	/^static int cm36652_i2c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+cm36652_i2c_remove	cm36652-new/cm36652.c	/^static int cm36652_i2c_remove(struct i2c_client *client)$/;"	f	file:
+cm36652_i2c_resume	cm36652-new/cm36652.c	/^static int cm36652_i2c_resume(struct device *dev)$/;"	f	file:
+cm36652_i2c_suspend	cm36652-new/cm36652.c	/^static int cm36652_i2c_suspend(struct device *dev)$/;"	f	file:
+cm36652_init	cm36652-new/cm36652.c	/^module_init(cm36652_init);$/;"	v
+cm36652_init	cm36652-new/cm36652.c	/^static int __init cm36652_init(void)$/;"	f	file:
+cm36652_init_client	cm36652-new/cm36652.c	/^static int cm36652_init_client(struct i2c_client *client)$/;"	f	file:
+cm36652_init_done_work	cm36652-new/cm36652.c	/^static void cm36652_init_done_work(struct work_struct *work)$/;"	f	file:
+cm36652_init_flag	cm36652-new/cm36652.c	/^static int cm36652_init_flag =  -1;$/;"	v	file:
+cm36652_init_info	cm36652-new/cm36652.c	/^static struct alsps_init_info cm36652_init_info = {$/;"	v	typeref:struct:alsps_init_info	file:
+cm36652_irq_handler	cm36652-new/cm36652.c	/^static int cm36652_irq_handler(void *data, uint len)$/;"	f	file:
+cm36652_local_init	cm36652-new/cm36652.c	/^static int  cm36652_local_init(void)$/;"	f	file:
+cm36652_obj	cm36652-new/cm36652.c	/^static struct cm36652_priv *cm36652_obj;$/;"	v	typeref:struct:cm36652_priv	file:
+cm36652_open	cm36652-new/cm36652.c	/^static int cm36652_open(struct inode *inode, struct file *file)$/;"	f	file:
+cm36652_power	cm36652-new/cm36652.c	/^static void cm36652_power(struct alsps_hw *hw, unsigned int on)$/;"	f	file:
+cm36652_priv	cm36652-new/cm36652.c	/^struct cm36652_priv {$/;"	s	file:
+cm36652_read_als	cm36652-new/cm36652.c	/^long cm36652_read_als(struct i2c_client *client, u16 *data)$/;"	f
+cm36652_read_ps	cm36652-new/cm36652.c	/^long cm36652_read_ps(struct i2c_client *client, u8 *data)$/;"	f
+cm36652_release	cm36652-new/cm36652.c	/^static int cm36652_release(struct inode *inode, struct file *file)$/;"	f	file:
+cm36652_remove	cm36652-new/cm36652.c	/^static int cm36652_remove(void)$/;"	f	file:
+cm36652_setup_eint	cm36652-new/cm36652.c	/^int cm36652_setup_eint(struct i2c_client *client)$/;"	f
+cm36652_show_als	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_als(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_alslv	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_alslv(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_alsval	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_alsval(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_config	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_config(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_ps	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_ps(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_recv	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_recv(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_reg	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_reg(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_send	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_send(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_status	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_status(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_show_trace	cm36652-new/cm36652.c	/^static ssize_t cm36652_show_trace(struct device_driver *ddri, char *buf)$/;"	f	file:
+cm36652_store_alslv	cm36652-new/cm36652.c	/^static ssize_t cm36652_store_alslv(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+cm36652_store_alsval	cm36652-new/cm36652.c	/^static ssize_t cm36652_store_alsval(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+cm36652_store_config	cm36652-new/cm36652.c	/^static ssize_t cm36652_store_config(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+cm36652_store_recv	cm36652-new/cm36652.c	/^static ssize_t cm36652_store_recv(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+cm36652_store_send	cm36652-new/cm36652.c	/^static ssize_t cm36652_store_send(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+cm36652_store_trace	cm36652-new/cm36652.c	/^static ssize_t cm36652_store_trace(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+cm36652_unlocked_ioctl	cm36652-new/cm36652.c	/^static long cm36652_unlocked_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+cs_enable	cm36652-new/cm36652.c	/^ulong           cs_enable;         \/*enable mask*\/$/;"	v
+current_sensor	alsps.c	/^struct current_sensor_s *current_sensor =NULL;$/;"	v	typeref:struct:current_sensor_s
+current_sensor_s	ls_ap3220/ap3xx6c.h	/^struct current_sensor_s {$/;"	s
+cust	cm36558/cm36558.h	/^	CM36558_CUST cust;$/;"	m	union:__anon15
+cust	cm36652-new/cm36652.h	/^	struct CM36652_CUST				cust;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_CUST
+data	cm36558/cm36558.h	/^	int32_t data[0];$/;"	m	struct:__anon9
+data	cm36558/cm36558.h	/^	uint32_t data[10];$/;"	m	union:__anon15
+data	cm36652-new/cm36652.h	/^	int32_t	data[0];$/;"	m	struct:CM36652_SET_CUST
+data	cm36652-new/cm36652.h	/^	uint32_t					data[10];$/;"	m	union:CM36652_CUST_DATA
+data_updata	inc/alsps.h	/^	int data_updata;$/;"	m	struct:alsps_data
+delay_als	inc/alsps.h	/^	atomic_t			delay_als; \/*als polling period for reporting input event*\/$/;"	m	struct:alsps_context
+delay_ps	inc/alsps.h	/^	atomic_t				delay_ps;\/*ps polling period for reporting input event*\/$/;"	m	struct:alsps_context
+drv_data	inc/alsps.h	/^	struct alsps_data	drv_data;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::alsps_data
+early_drv	ls_ap3220/ap3220.c	/^	struct early_suspend	early_drv;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::early_suspend	file:
+early_suspend	inc/alsps.h	/^	atomic_t			early_suspend;$/;"	m	struct:alsps_context
+eint_is_deb_en	cm36558/cm36558.h	/^	uint32_t eint_is_deb_en;$/;"	m	struct:__anon12
+eint_is_deb_en	cm36652-new/cm36652.h	/^	uint32_t	eint_is_deb_en;$/;"	m	struct:CM36652_SET_EINT_INFO
+eint_num	cm36558/cm36558.h	/^	uint32_t eint_num;$/;"	m	struct:__anon12
+eint_num	cm36652-new/cm36652.h	/^	uint32_t	eint_num;$/;"	m	struct:CM36652_SET_EINT_INFO
+eint_type	cm36558/cm36558.h	/^	uint32_t eint_type;$/;"	m	struct:__anon12
+eint_type	cm36652-new/cm36652.h	/^	uint32_t	eint_type;$/;"	m	struct:CM36652_SET_EINT_INFO
+eint_work	alspshub/alspshub.c	/^	struct work_struct eint_work;$/;"	m	struct:alspshub_ipi_data	typeref:struct:alspshub_ipi_data::work_struct	file:
+eint_work	cm36558/cm36558.c	/^	struct work_struct eint_work;$/;"	m	struct:CM36558_priv	typeref:struct:CM36558_priv::work_struct	file:
+eint_work	cm36652-new/cm36652.c	/^	struct work_struct	eint_work;$/;"	m	struct:cm36652_priv	typeref:struct:cm36652_priv::work_struct	file:
+eint_work	ls_ap3220/ap3220.c	/^	struct delayed_work eint_work;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::delayed_work	file:
+eint_work	ls_ap3220/ap3220.c	/^	struct work_struct eint_work;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::work_struct	file:
+enable	alspshub/alspshub.c	/^	ulong		enable;				\/*enable mask *\/$/;"	m	struct:alspshub_ipi_data	file:
+enable	cm36558/cm36558.c	/^	ulong enable;		\/*enable mask *\/$/;"	m	struct:CM36558_priv	file:
+enable	cm36652-new/cm36652.c	/^	ulong		enable;		\/*enable mask*\/$/;"	m	struct:cm36652_priv	file:
+enable	ls_ap3220/ap3220.c	/^	ulong		enable;		\/*enable mask*\/$/;"	m	struct:ap3xx6_priv	file:
+enable_nodata	inc/alsps.h	/^	int (*enable_nodata)(int en);\/* only enable not report event to HAL *\/$/;"	m	struct:als_control_path
+enable_nodata	inc/alsps.h	/^	int (*enable_nodata)(int en);\/* only enable not report event to HAL *\/$/;"	m	struct:ps_control_path
+enable_two_irq	ls_ap3220/ap3220.c	/^void enable_two_irq(void)$/;"	f
+far_away	cm36558/cm36558.c	/^	int far_away;$/;"	m	struct:PS_CALI_DATA_STRUCT	file:
+far_away	cm36652-new/cm36652.c	/^	int far_away;$/;"	m	struct:PS_CALI_DATA_STRUCT	file:
+first_ready_after_boot	alspshub/alspshub.c	/^	atomic_t first_ready_after_boot;$/;"	m	struct:alspshub_ipi_data	file:
+getALSRawData	cm36558/cm36558.h	/^	CM36558_GET_ALS_RAW_DATA getALSRawData;$/;"	m	union:__anon15
+getALSRawData	cm36652-new/cm36652.h	/^	struct CM36652_GET_ALS_RAW_DATA	getALSRawData;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_GET_ALS_RAW_DATA
+getPSRawData	cm36558/cm36558.h	/^	CM36558_GET_PS_RAW_DATA getPSRawData;$/;"	m	union:__anon15
+getPSRawData	cm36652-new/cm36652.h	/^	struct CM36652_GET_PS_RAW_DATA	 getPSRawData;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_GET_PS_RAW_DATA
+get_alsps_platformdev	alsps.c	/^struct platform_device *get_alsps_platformdev(void)$/;"	f
+get_ap3xx6_init_flag	ls_ap3220/ap3220.c	/^int get_ap3xx6_init_flag(void)$/;"	f
+get_cust_alsps	cm36558/cm36558.c	/^struct alsps_hw *get_cust_alsps(void)$/;"	f
+get_cust_alsps	cm36652-new/cm36652.c	/^struct alsps_hw *get_cust_alsps(void)$/;"	f
+get_cust_alsps	ls_ap3220/ap3220.c	/^struct alsps_hw *get_cust_alsps(void)$/;"	f
+get_data	inc/alsps.h	/^	int (*get_data)(int *als_value, int *status);$/;"	m	struct:als_data_path
+get_data	inc/alsps.h	/^	int (*get_data)(int *ps_value, int *status);$/;"	m	struct:ps_data_path
+get_ps_level	ls_ap3220/ap3220init.c	/^int get_ps_level(struct i2c_client *client,int val)$/;"	f
+gpio_mode	cm36558/cm36558.h	/^	uint32_t gpio_mode;$/;"	m	struct:__anon12
+gpio_mode	cm36652-new/cm36652.h	/^	uint32_t	gpio_mode;$/;"	m	struct:CM36652_SET_EINT_INFO
+gpio_pin	cm36558/cm36558.h	/^	uint32_t gpio_pin;$/;"	m	struct:__anon12
+gpio_pin	cm36652-new/cm36652.h	/^	uint32_t	gpio_pin;$/;"	m	struct:CM36652_SET_EINT_INFO
+hw	cm36558/cm36558.c	/^	struct alsps_hw *hw;$/;"	m	struct:CM36558_priv	typeref:struct:CM36558_priv::alsps_hw	file:
+hw	cm36558/cm36558.c	/^static struct alsps_hw *hw = &alsps_cust;$/;"	v	typeref:struct:alsps_hw	file:
+hw	cm36652-new/cm36652.c	/^	struct alsps_hw  *hw;$/;"	m	struct:cm36652_priv	typeref:struct:cm36652_priv::alsps_hw	file:
+hw	cm36652-new/cm36652.c	/^static struct alsps_hw *hw = &alsps_cust;$/;"	v	typeref:struct:alsps_hw	file:
+hw	ls_ap3220/ap3220.c	/^	struct alsps_hw *hw;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::alsps_hw	file:
+hw	ls_ap3220/ap3220.c	/^static struct alsps_hw *hw = &alsps_cust;$/;"	v	typeref:struct:alsps_hw	file:
+i2c_addr	inc/cust_alsps.h	/^	unsigned char   i2c_addr[C_CUST_I2C_ADDR_NUM];\/*!< i2c address list, some chip will have multiple address *\/$/;"	m	struct:alsps_hw
+i2c_num	inc/cust_alsps.h	/^	int i2c_num;                                    \/*!< the i2c bus used by ALS\/PS *\/$/;"	m	struct:alsps_hw
+i2c_retry	cm36558/cm36558.c	/^	atomic_t i2c_retry;$/;"	m	struct:CM36558_priv	file:
+i2c_retry	cm36652-new/cm36652.c	/^	atomic_t	i2c_retry;$/;"	m	struct:cm36652_priv	file:
+i2c_retry	ls_ap3220/ap3220.c	/^	atomic_t	i2c_retry;$/;"	m	struct:ap3xx6_priv	file:
+idev	inc/alsps.h	/^	struct input_dev		*idev;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::input_dev
+init	inc/alsps.h	/^	int (*init)(void);$/;"	m	struct:alsps_init_info
+init_done	cm36558/cm36558.c	/^	atomic_t init_done;$/;"	m	struct:CM36558_priv	file:
+init_done	cm36652-new/cm36652.c	/^	atomic_t  init_done;$/;"	m	struct:cm36652_priv	file:
+init_done_work	alspshub/alspshub.c	/^	struct work_struct init_done_work;$/;"	m	struct:alspshub_ipi_data	typeref:struct:alspshub_ipi_data::work_struct	file:
+init_done_work	cm36652-new/cm36652.c	/^	struct work_struct init_done_work;$/;"	m	struct:cm36652_priv	typeref:struct:cm36652_priv::work_struct	file:
+int_top_time	cm36558/cm36558.c	/^static unsigned long long int_top_time;$/;"	v	file:
+int_top_time	cm36652-new/cm36652.c	/^static unsigned long long int_top_time;$/;"	v	file:
+intr_flag	alspshub/alspshub.c	/^static int intr_flag = 1;$/;"	v	file:
+intr_flag	cm36558/cm36558.c	/^static int intr_flag;$/;"	v	file:
+intr_flag	cm36652-new/cm36652.c	/^static int intr_flag = 1; \/* hw default away after enable. *\/$/;"	v	file:
+irq	cm36558/cm36558.c	/^	int irq;$/;"	m	struct:CM36558_priv	file:
+irq	cm36652-new/cm36652.c	/^	int		irq;$/;"	m	struct:cm36652_priv	file:
+irq	ls_ap3220/ap3220.c	/^	int irq;$/;"	m	struct:ap3xx6_priv	file:
+irq_node	cm36558/cm36558.c	/^	struct device_node *irq_node;$/;"	m	struct:CM36558_priv	typeref:struct:CM36558_priv::device_node	file:
+irq_node	cm36652-new/cm36652.c	/^	struct device_node *irq_node;$/;"	m	struct:cm36652_priv	typeref:struct:cm36652_priv::device_node	file:
+irq_node	ls_ap3220/ap3220.c	/^	struct device_node *irq_node;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::device_node	file:
+is_als_active_data	inc/alsps.h	/^	bool is_als_active_data;\/* Active and HAL need data . *\/$/;"	m	struct:alsps_context
+is_als_active_nodata	inc/alsps.h	/^	bool is_als_active_nodata;\/* Active, but HAL don't need data sensor. such as orientation need *\/$/;"	m	struct:alsps_context
+is_als_batch_enable	inc/alsps.h	/^	bool is_als_batch_enable;\/* version2.this is used for judging whether sensor is in batch mode *\/$/;"	m	struct:alsps_context
+is_als_first_data_after_enable	inc/alsps.h	/^	bool is_als_first_data_after_enable;$/;"	m	struct:alsps_context
+is_als_polling_run	inc/alsps.h	/^	bool is_als_polling_run;$/;"	m	struct:alsps_context
+is_als_should_report	ls_ap3220/ap3220.c	/^int is_als_should_report(unsigned int als_value, struct ap3xx6_priv *obj)$/;"	f
+is_batch_supported_als	inc/cust_alsps.h	/^	bool is_batch_supported_als;$/;"	m	struct:alsps_hw
+is_batch_supported_ps	inc/cust_alsps.h	/^	bool is_batch_supported_ps;$/;"	m	struct:alsps_hw
+is_get_valid_als_data_after_enable	inc/alsps.h	/^	bool is_get_valid_als_data_after_enable;$/;"	m	struct:alsps_context
+is_get_valid_ps_data_after_enable	inc/alsps.h	/^	bool is_get_valid_ps_data_after_enable;$/;"	m	struct:alsps_context
+is_polling_mode	inc/alsps.h	/^	bool is_polling_mode;$/;"	m	struct:als_control_path
+is_polling_mode	inc/alsps.h	/^	bool is_polling_mode;$/;"	m	struct:ps_control_path
+is_ps_active_data	inc/alsps.h	/^	bool is_ps_active_data;\/* Active and HAL need data . *\/$/;"	m	struct:alsps_context
+is_ps_active_nodata	inc/alsps.h	/^	bool is_ps_active_nodata;\/* Active, but HAL don't need data sensor. such as orientation need *\/$/;"	m	struct:alsps_context
+is_ps_batch_enable	inc/alsps.h	/^	bool is_ps_batch_enable;	\/* version2.this is used for judging whether sensor is in batch mode *\/$/;"	m	struct:alsps_context
+is_ps_first_data_after_enable	inc/alsps.h	/^	bool is_ps_first_data_after_enable;$/;"	m	struct:alsps_context
+is_ps_polling_run	inc/alsps.h	/^	bool is_ps_polling_run;$/;"	m	struct:alsps_context
+is_report_input_direct	inc/alsps.h	/^	bool is_report_input_direct;$/;"	m	struct:als_control_path
+is_report_input_direct	inc/alsps.h	/^	bool is_report_input_direct;$/;"	m	struct:ps_control_path
+is_support_batch	inc/alsps.h	/^	bool is_support_batch;\/* version2.used for batch mode support flag *\/$/;"	m	struct:als_control_path
+is_support_batch	inc/alsps.h	/^	bool is_support_batch;\/* version2.used for batch mode support flag *\/$/;"	m	struct:ps_control_path
+is_use_common_factory	inc/alsps.h	/^	bool is_use_common_factory;$/;"	m	struct:als_control_path
+is_use_common_factory	inc/alsps.h	/^	bool is_use_common_factory;$/;"	m	struct:ps_control_path
+last_ps_index	ls_ap3220/ap3220init.c	/^static int last_ps_index = 0xff;$/;"	v	file:
+lock	ls_ap3220/ap3220.c	/^	struct mutex lock;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::mutex	file:
+magic	ls_ap3220/alsps_3220.h	/^	char magic[8];$/;"	m	struct:ps_adc_adjust
+mdev	inc/alsps.h	/^	struct miscdevice	mdev;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::miscdevice
+name	inc/alsps.h	/^	char *name;$/;"	m	struct:alsps_init_info
+obj-y	alspshub/Makefile	/^obj-y	:=  alspshub.o$/;"	m
+obj-y	cm36558/Makefile	/^obj-y	:=  cm36558.o$/;"	m
+obj_ipi_data	alspshub/alspshub.c	/^static struct alspshub_ipi_data *obj_ipi_data;$/;"	v	typeref:struct:alspshub_ipi_data	file:
+open_report_data	inc/alsps.h	/^	int (*open_report_data)(int open);\/* open data rerport to HAL *\/$/;"	m	struct:als_control_path
+open_report_data	inc/alsps.h	/^	int (*open_report_data)(int open);\/* open data rerport to HAL *\/$/;"	m	struct:ps_control_path
+part	cm36558/cm36558.h	/^	uint16_t part;$/;"	m	struct:__anon9
+part	cm36652-new/cm36652.h	/^	uint16_t part;$/;"	m	struct:CM36652_SET_CUST
+pending_intr	alspshub/alspshub.c	/^	ulong		pending_intr;		\/*pending interrupt *\/$/;"	m	struct:alspshub_ipi_data	file:
+pending_intr	cm36558/cm36558.c	/^	ulong pending_intr;	\/*pending interrupt *\/$/;"	m	struct:CM36558_priv	file:
+pending_intr	cm36652-new/cm36652.c	/^	ulong		pending_intr;	\/*pending interrupt*\/$/;"	m	struct:cm36652_priv	file:
+pending_intr	ls_ap3220/ap3220.c	/^	ulong		pending_intr;	\/*pending interrupt*\/$/;"	m	struct:ap3xx6_priv	file:
+platform_diver_addr	inc/alsps.h	/^	struct platform_driver *platform_diver_addr;$/;"	m	struct:alsps_init_info	typeref:struct:alsps_init_info::platform_driver
+pltfm_dev	alsps.c	/^struct platform_device *pltfm_dev;$/;"	v	typeref:struct:platform_device
+polling	inc/alsps.h	/^	int polling;$/;"	m	struct:alsps_drv_obj
+polling_mode	inc/cust_alsps.h	/^	int polling_mode;                               \/*!< 1: polling mode ; 0:interrupt mode*\/$/;"	m	struct:alsps_hw
+polling_mode_als	inc/cust_alsps.h	/^	int polling_mode_als;                               \/*!< 1: polling mode ; 0:interrupt mode*\/$/;"	m	struct:alsps_hw
+polling_mode_ps	inc/cust_alsps.h	/^	int polling_mode_ps;                               \/*!< 1: polling mode ; 0:interrupt mode*\/$/;"	m	struct:alsps_hw
+power_id	inc/cust_alsps.h	/^	int power_id;                                   \/*!< the VDD power id of the als chip *\/$/;"	m	struct:alsps_hw
+power_lp_mode_ctrl	inc/cust_alsps.h	/^	int power_lp_mode_ctrl;         \/*!< 1: disable ldo low power mode when p sensor enabled ; 0: no action*\/$/;"	m	struct:alsps_hw
+power_vol	inc/cust_alsps.h	/^	int power_vol;                                  \/*!< the VDD power voltage of the als chip *\/$/;"	m	struct:alsps_hw
+prev_cal_data	ls_ap3220/ap3220.c	/^		u16 prev_cal_data = 0;$/;"	v
+ps	alspshub/alspshub.c	/^	u8			ps;$/;"	m	struct:alspshub_ipi_data	file:
+ps	cm36558/cm36558.c	/^	u16 ps;$/;"	m	struct:CM36558_priv	file:
+ps	cm36558/cm36558.h	/^	uint16_t ps;$/;"	m	struct:__anon14
+ps	cm36652-new/cm36652.c	/^	u8			ps;$/;"	m	struct:cm36652_priv	file:
+ps	cm36652-new/cm36652.h	/^	uint16_t	ps;$/;"	m	struct:CM36652_GET_PS_RAW_DATA
+ps	ls_ap3220/ap3220.c	/^	u16		ps;$/;"	m	struct:ap3xx6_priv	file:
+ps_adc_adjust	ls_ap3220/alsps_3220.h	/^struct ps_adc_adjust$/;"	s
+ps_cali	alspshub/alspshub.c	/^	int			ps_cali;$/;"	m	struct:alspshub_ipi_data	file:
+ps_cali	cm36558/cm36558.c	/^	int ps_cali;$/;"	m	struct:CM36558_priv	file:
+ps_cali	cm36652-new/cm36652.c	/^	int			ps_cali;$/;"	m	struct:cm36652_priv	file:
+ps_calibration	inc/alsps.h	/^	int (*ps_calibration)(int type, int value);$/;"	m	struct:ps_control_path
+ps_cmd_val	cm36558/cm36558.c	/^	atomic_t ps_cmd_val;	\/*the cmd value can't be read, stored in ram *\/$/;"	m	struct:CM36558_priv	file:
+ps_cmd_val	cm36652-new/cm36652.c	/^	atomic_t	ps_cmd_val;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:cm36652_priv	file:
+ps_cmd_val	ls_ap3220/ap3220.c	/^	atomic_t	ps_cmd_val;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv	file:
+ps_control_path	inc/alsps.h	/^struct ps_control_path {$/;"	s
+ps_ctl	inc/alsps.h	/^	struct ps_control_path ps_ctl;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::ps_control_path
+ps_data	inc/alsps.h	/^	struct hwm_sensor_data ps_data;$/;"	m	struct:alsps_data	typeref:struct:alsps_data::hwm_sensor_data
+ps_data	inc/alsps.h	/^	struct ps_data_path	ps_data;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::ps_data_path
+ps_data_path	inc/alsps.h	/^struct ps_data_path {$/;"	s
+ps_data_report	alsps.c	/^int ps_data_report(struct input_dev *dev, int value, int status)$/;"	f
+ps_deb_end	cm36558/cm36558.c	/^	atomic_t ps_deb_end;	\/*the jiffies representing the end of debounce *\/$/;"	m	struct:CM36558_priv	file:
+ps_deb_end	cm36652-new/cm36652.c	/^	atomic_t	ps_deb_end;	\/*the jiffies representing the end of debounce*\/$/;"	m	struct:cm36652_priv	file:
+ps_deb_end	ls_ap3220/ap3220.c	/^	atomic_t	ps_deb_end;	\/*the jiffies representing the end of debounce*\/$/;"	m	struct:ap3xx6_priv	file:
+ps_deb_on	cm36558/cm36558.c	/^	atomic_t ps_deb_on;	\/*indicates if the debounce is on *\/$/;"	m	struct:CM36558_priv	file:
+ps_deb_on	cm36652-new/cm36652.c	/^	atomic_t	ps_deb_on;		\/*indicates if the debounce is on*\/$/;"	m	struct:cm36652_priv	file:
+ps_deb_on	ls_ap3220/ap3220.c	/^	atomic_t	ps_deb_on;		\/*indicates if the debounce is on*\/$/;"	m	struct:ap3xx6_priv	file:
+ps_debounce	cm36558/cm36558.c	/^	atomic_t ps_debounce;	\/*debounce time after enabling ps *\/$/;"	m	struct:CM36558_priv	file:
+ps_debounce	cm36652-new/cm36652.c	/^	atomic_t	ps_debounce;	\/*debounce time after enabling ps*\/$/;"	m	struct:cm36652_priv	file:
+ps_debounce	ls_ap3220/ap3220.c	/^	atomic_t	ps_debounce;	\/*debounce time after enabling ps*\/$/;"	m	struct:ap3xx6_priv	file:
+ps_enable_data	alsps.c	/^static int ps_enable_data(int enable)$/;"	f	file:
+ps_enable_nodata	alspshub/alspshub.c	/^static int ps_enable_nodata(int en)$/;"	f	file:
+ps_enable_nodata	cm36558/cm36558.c	/^static int ps_enable_nodata(int en)$/;"	f	file:
+ps_enable_nodata	cm36652-new/cm36652.c	/^static int ps_enable_nodata(int en)$/;"	f	file:
+ps_get_data	alspshub/alspshub.c	/^static int ps_get_data(int *value, int *status)$/;"	f	file:
+ps_get_data	cm36558/cm36558.c	/^static int ps_get_data(int *value, int *status)$/;"	f	file:
+ps_get_data	cm36652-new/cm36652.c	/^static int ps_get_data(int *value, int *status)$/;"	f	file:
+ps_get_raw_data	inc/alsps.h	/^	int (*ps_get_raw_data)(int *ps_value);$/;"	m	struct:ps_data_path
+ps_mask	cm36558/cm36558.c	/^	atomic_t ps_mask;	\/*mask ps: always return far away *\/$/;"	m	struct:CM36558_priv	file:
+ps_mask	cm36652-new/cm36652.c	/^	atomic_t	ps_mask;		\/*mask ps: always return far away*\/$/;"	m	struct:cm36652_priv	file:
+ps_mask	ls_ap3220/ap3220.c	/^	atomic_t	ps_mask;		\/*mask ps: always return far away*\/$/;"	m	struct:ap3xx6_priv	file:
+ps_open_report_data	alspshub/alspshub.c	/^static int ps_open_report_data(int open)$/;"	f	file:
+ps_open_report_data	cm36558/cm36558.c	/^static int ps_open_report_data(int open)$/;"	f	file:
+ps_open_report_data	cm36652-new/cm36652.c	/^static int ps_open_report_data(int open)$/;"	f	file:
+ps_poll	alsps.c	/^static void ps_poll(unsigned long data)$/;"	f	file:
+ps_power_vdd_id	inc/cust_alsps.h	/^	int ps_power_vdd_id;                                   \/*!< the VDD power id of the ps chip *\/$/;"	m	struct:alsps_hw
+ps_power_vdd_vol	inc/cust_alsps.h	/^	int ps_power_vdd_vol;                                  \/*!< the VDD power voltage of the ps chip *\/$/;"	m	struct:alsps_hw
+ps_power_vio_id	inc/cust_alsps.h	/^	int ps_power_vio_id;                                   \/*!< the VIO power id of the ps chip *\/$/;"	m	struct:alsps_hw
+ps_power_vio_vol	inc/cust_alsps.h	/^	int ps_power_vio_vol;                                  \/*!< the VIO power voltage of the ps chip *\/$/;"	m	struct:alsps_hw
+ps_real_enable	alsps.c	/^static int ps_real_enable(int enable)$/;"	f	file:
+ps_recv_interrupt_ipidata	alspshub/alspshub.c	/^static int ps_recv_interrupt_ipidata(void *data, unsigned int len)$/;"	f	file:
+ps_register_control_path	alsps.c	/^int ps_register_control_path(struct ps_control_path *ctl)$/;"	f
+ps_register_data_path	alsps.c	/^int ps_register_data_path(struct ps_data_path *data)$/;"	f
+ps_report_interrupt_data	alsps.c	/^EXPORT_SYMBOL_GPL(ps_report_interrupt_data);$/;"	v
+ps_report_interrupt_data	alsps.c	/^int ps_report_interrupt_data(int value)$/;"	f
+ps_set_delay	alspshub/alspshub.c	/^static int ps_set_delay(u64 ns)$/;"	f	file:
+ps_set_delay	cm36558/cm36558.c	/^static int ps_set_delay(u64 ns)$/;"	f	file:
+ps_set_delay	cm36652-new/cm36652.c	/^static int ps_set_delay(u64 ns)$/;"	f	file:
+ps_show_active	alsps.c	/^static ssize_t ps_show_active(struct device *dev,$/;"	f	file:
+ps_show_batch	alsps.c	/^static ssize_t ps_show_batch(struct device *dev,$/;"	f	file:
+ps_show_delay	alsps.c	/^static ssize_t ps_show_delay(struct device *dev,$/;"	f	file:
+ps_show_devnum	alsps.c	/^static ssize_t ps_show_devnum(struct device *dev,$/;"	f	file:
+ps_show_flush	alsps.c	/^static ssize_t ps_show_flush(struct device *dev,$/;"	f	file:
+ps_store_active	alsps.c	/^static ssize_t ps_store_active(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+ps_store_active_kernel	alsps.c	/^int ps_store_active_kernel(int buf)$/;"	f
+ps_store_batch	alsps.c	/^static ssize_t ps_store_batch(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+ps_store_delay	alsps.c	/^static ssize_t ps_store_delay(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+ps_store_flush	alsps.c	/^static ssize_t ps_store_flush(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+ps_suspend	alspshub/alspshub.c	/^	atomic_t	ps_suspend;$/;"	m	struct:alspshub_ipi_data	file:
+ps_suspend	cm36558/cm36558.c	/^	atomic_t ps_suspend;$/;"	m	struct:CM36558_priv	file:
+ps_suspend	cm36652-new/cm36652.c	/^	atomic_t	ps_suspend;$/;"	m	struct:cm36652_priv	file:
+ps_suspend	ls_ap3220/ap3220.c	/^	atomic_t	ps_suspend;$/;"	m	struct:ap3xx6_priv	file:
+ps_thd	ls_ap3220/ap3220.c	/^	u8 ps_thd;	\/*PS INT threshold*\/$/;"	m	struct:ap3xx6_i2c_addr	file:
+ps_thd_val	alspshub/alspshub.c	/^	atomic_t	ps_thd_val;$/;"	m	struct:alspshub_ipi_data	file:
+ps_thd_val	cm36558/cm36558.c	/^	atomic_t ps_thd_val;$/;"	m	struct:CM36558_priv	file:
+ps_thd_val	cm36652-new/cm36652.c	/^	atomic_t	ps_thd_val;$/;"	m	struct:cm36652_priv	file:
+ps_thd_val_h	ls_ap3220/ap3220.c	/^	atomic_t	ps_thd_val_h;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv	file:
+ps_thd_val_high	alspshub/alspshub.c	/^	atomic_t	ps_thd_val_high;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:alspshub_ipi_data	file:
+ps_thd_val_high	cm36558/cm36558.c	/^	atomic_t ps_thd_val_high;	\/*the cmd value can't be read, stored in ram *\/$/;"	m	struct:CM36558_priv	file:
+ps_thd_val_high	cm36652-new/cm36652.c	/^	atomic_t	ps_thd_val_high;	 \/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:cm36652_priv	file:
+ps_thd_val_l	ls_ap3220/ap3220.c	/^	atomic_t	ps_thd_val_l;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv	file:
+ps_thd_val_low	alspshub/alspshub.c	/^	atomic_t	ps_thd_val_low;		\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:alspshub_ipi_data	file:
+ps_thd_val_low	cm36558/cm36558.c	/^	atomic_t ps_thd_val_low;	\/*the cmd value can't be read, stored in ram *\/$/;"	m	struct:CM36558_priv	file:
+ps_thd_val_low	cm36652-new/cm36652.c	/^	atomic_t	ps_thd_val_low;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:cm36652_priv	file:
+ps_threshold	inc/cust_alsps.h	/^	unsigned int    ps_threshold;                   \/*!< the threshold of proximity sensor *\/$/;"	m	struct:alsps_hw
+ps_threshold_high	inc/cust_alsps.h	/^	unsigned int    ps_threshold_high;$/;"	m	struct:alsps_hw
+ps_threshold_hor	ls_ap3220/ap3220init.c	/^int ps_threshold_hor(u16 value, struct i2c_client *client)$/;"	f
+ps_threshold_low	inc/cust_alsps.h	/^	unsigned int    ps_threshold_low;$/;"	m	struct:alsps_hw
+ps_threshold_setting	inc/alsps.h	/^	int (*ps_threshold_setting)(int type, int value[2]);$/;"	m	struct:ps_control_path
+ps_threshold_ver	ls_ap3220/ap3220init.c	/^int ps_threshold_ver(u16 value,struct i2c_client *client)$/;"	f
+ps_work_func	alsps.c	/^static void ps_work_func(struct work_struct *work)$/;"	f	file:
+range	ls_ap3220/ap3220init.c	/^static int range = LS_RANGE4;$/;"	v	file:
+read_int_from_buf	cm36558/cm36558.c	/^static int read_int_from_buf(struct CM36558_priv *obj, const char *buf, size_t count, u32 data[], int len)$/;"	f	file:
+read_int_from_buf	cm36652-new/cm36652.c	/^static int read_int_from_buf(struct cm36652_priv *obj, const char *buf, size_t count, u32 data[], int len)$/;"	f	file:
+register_all_sysfs	ls_ap3220/ap3220.c	/^int register_all_sysfs(void)$/;"	f
+report_als	inc/alsps.h	/^	struct work_struct	report_als;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::work_struct
+report_ps	inc/alsps.h	/^	struct work_struct	report_ps;$/;"	m	struct:alsps_context	typeref:struct:alsps_context::work_struct
+scp_init_done	alspshub/alspshub.c	/^	atomic_t	scp_init_done;$/;"	m	struct:alspshub_ipi_data	file:
+scp_ready_event	alspshub/alspshub.c	/^static int scp_ready_event(struct notifier_block *this, unsigned long event, void *ptr)$/;"	f	file:
+scp_ready_notifier	alspshub/alspshub.c	/^static struct notifier_block scp_ready_notifier = {$/;"	v	typeref:struct:notifier_block	file:
+self	inc/alsps.h	/^	void *self;$/;"	m	struct:alsps_drv_obj
+sensor_als	ls_ap3220/ap3xx6c.h	/^	int sensor_als;$/;"	m	struct:current_sensor_s
+sensor_pls	ls_ap3220/ap3xx6c.h	/^	int sensor_pls;$/;"	m	struct:current_sensor_s
+sensor_read_reg	ls_ap3220/ap3220init.c	/^int sensor_read_reg(struct i2c_client *client,int val)$/;"	f
+setCali	cm36558/cm36558.h	/^	CM36558_SET_CALI setCali;$/;"	m	union:__anon15
+setCali	cm36652-new/cm36652.h	/^	struct CM36652_SET_CALI			setCali;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_SET_CALI
+setCust	cm36558/cm36558.h	/^	CM36558_SET_CUST setCust;$/;"	m	union:__anon15
+setCust	cm36652-new/cm36652.h	/^	struct CM36652_SET_CUST			setCust;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_SET_CUST
+setEintInfo	cm36558/cm36558.h	/^	CM36558_SET_EINT_INFO setEintInfo;$/;"	m	union:__anon15
+setEintInfo	cm36652-new/cm36652.h	/^	struct CM36652_SET_EINT_INFO	   setEintInfo;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_SET_EINT_INFO
+setPSThreshold	cm36558/cm36558.h	/^	CM36558_SET_PS_THRESHOLD setPSThreshold;$/;"	m	union:__anon15
+setPSThreshold	cm36652-new/cm36652.h	/^	struct CM36652_SET_PS_THRESHOLD	setPSThreshold;$/;"	m	union:CM36652_CUST_DATA	typeref:struct:CM36652_CUST_DATA::CM36652_SET_PS_THRESHOLD
+set_delay	inc/alsps.h	/^	int (*set_delay)(u64 delay);$/;"	m	struct:als_control_path
+set_delay	inc/alsps.h	/^	int (*set_delay)(u64 delay);$/;"	m	struct:ps_control_path
+set_hor_light_cail	ls_ap3220/ap3220.c	/^int set_hor_light_cail(unsigned int *p)$/;"	f
+set_hor_ps_cail	ls_ap3220/ap3220init.c	/^int set_hor_ps_cail(unsigned int *p)$/;"	f
+set_psensor_threshold	alspshub/alspshub.c	/^static int set_psensor_threshold(void)$/;"	f	file:
+set_psensor_threshold	cm36558/cm36558.c	/^static int set_psensor_threshold(struct i2c_client *client)$/;"	f	file:
+set_psensor_threshold	cm36652-new/cm36652.c	/^static int set_psensor_threshold(struct i2c_client *client)$/;"	f	file:
+set_ver_light_cail	ls_ap3220/ap3220.c	/^int set_ver_light_cail(unsigned int *p)$/;"	f
+set_ver_ps_cail	ls_ap3220/ap3220init.c	/^int set_ver_ps_cail(unsigned int *p)$/;"	f
+threshold	cm36558/cm36558.h	/^	int32_t threshold[2];$/;"	m	struct:__anon11
+threshold	cm36652-new/cm36652.h	/^	int32_t	 threshold[2];$/;"	m	struct:CM36652_SET_PS_THRESHOLD
+timer_als	inc/alsps.h	/^	struct timer_list		timer_als;  \/*als polling timer *\/$/;"	m	struct:alsps_context	typeref:struct:alsps_context::timer_list
+timer_ps	inc/alsps.h	/^	struct timer_list		timer_ps;  \/* ps polling timer *\/$/;"	m	struct:alsps_context	typeref:struct:alsps_context::timer_list
+trace	alspshub/alspshub.c	/^	atomic_t	trace;$/;"	m	struct:alspshub_ipi_data	file:
+trace	cm36558/cm36558.c	/^	atomic_t trace;$/;"	m	struct:CM36558_priv	file:
+trace	cm36652-new/cm36652.c	/^	atomic_t	trace;$/;"	m	struct:cm36652_priv	file:
+trace	inc/alsps.h	/^	atomic_t			trace;$/;"	m	struct:alsps_context
+trace	ls_ap3220/ap3220.c	/^	atomic_t	trace;$/;"	m	struct:ap3xx6_priv	file:
+uninit	inc/alsps.h	/^	int (*uninit)(void);$/;"	m	struct:alsps_init_info
+valid	cm36558/cm36558.c	/^	int valid;$/;"	m	struct:PS_CALI_DATA_STRUCT	file:
+valid	cm36652-new/cm36652.c	/^	int valid;$/;"	m	struct:PS_CALI_DATA_STRUCT	file:
+vender_div	inc/alsps.h	/^	int vender_div;$/;"	m	struct:als_data_path
+vender_div	inc/alsps.h	/^	int vender_div;$/;"	m	struct:ps_data_path
+wake	inc/alsps.h	/^	atomic_t			wake;  \/*user-space request to wake-up, used with stop*\/$/;"	m	struct:alsps_context
+which_sensor	ls_ap3220/ap3xx6c.h	/^	int which_sensor;       \/\/1 is vertical; 0 is horizontal; 2 is only horizontal, 3 is only vertial$/;"	m	struct:current_sensor_s
+write_addr	ls_ap3220/ap3220.c	/^	u8 write_addr;$/;"	m	struct:ap3xx6_i2c_addr	file:

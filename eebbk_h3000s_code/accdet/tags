@@ -1,0 +1,279 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCDET_1V9_MODE_OFF	mt8173/reg_accdet.h	119;"	d
+ACCDET_1V9_MODE_ON	mt8173/reg_accdet.h	118;"	d
+ACCDET_2V8_MODE_OFF	mt8173/reg_accdet.h	121;"	d
+ACCDET_2V8_MODE_ON	mt8173/reg_accdet.h	120;"	d
+ACCDET_BASE	mt8173/reg_accdet.h	15;"	d
+ACCDET_CMP_EN	mt8173/reg_accdet.h	74;"	d
+ACCDET_CMP_EN_SW	mt8173/reg_accdet.h	99;"	d
+ACCDET_CMP_PWM_IDLE	mt8173/reg_accdet.h	73;"	d
+ACCDET_CONTROL_RG	mt8173/reg_accdet.h	48;"	d
+ACCDET_CTRL	mt8173/reg_accdet.h	33;"	d
+ACCDET_CTRL_EN	mt8173/reg_accdet.h	70;"	d
+ACCDET_CUR_DEB	mt8173/reg_accdet.h	51;"	d
+ACCDET_DEBOUNCE0	mt8173/reg_accdet.h	38;"	d
+ACCDET_DEBOUNCE1	mt8173/reg_accdet.h	39;"	d
+ACCDET_DEBOUNCE2	mt8173/reg_accdet.h	40;"	d
+ACCDET_DEBOUNCE3	mt8173/reg_accdet.h	41;"	d
+ACCDET_DEBUG	mt8173/accdet.c	37;"	d	file:
+ACCDET_DEBUG_DRV	accdet_drv.c	20;"	d	file:
+ACCDET_DEFAULT_STATE_RG	mt8173/reg_accdet.h	43;"	d
+ACCDET_DEVNAME	mt8173/accdet.h	54;"	d
+ACCDET_DISABLE	mt8173/reg_accdet.h	79;"	d
+ACCDET_ENABLE	mt8173/reg_accdet.h	78;"	d
+ACCDET_EN_DELAY_NUM	mt8173/reg_accdet.h	37;"	d
+ACCDET_ERROR	mt8173/accdet.c	39;"	d	file:
+ACCDET_INFO	mt8173/accdet.c	38;"	d	file:
+ACCDET_INIT	mt8173/accdet.h	56;"	d
+ACCDET_IN_SW	mt8173/reg_accdet.h	103;"	d
+ACCDET_IOC_MAGIC	mt8173/accdet.h	55;"	d
+ACCDET_IRQ_STS	mt8173/reg_accdet.h	46;"	d
+ACCDET_MICBIA_EN	mt8173/reg_accdet.h	76;"	d
+ACCDET_MIC_EN_SW	mt8173/reg_accdet.h	97;"	d
+ACCDET_MIC_PWM_IDLE	mt8173/reg_accdet.h	71;"	d
+ACCDET_MULTI_KEY_FEATURE	mt8173/accdet.c	22;"	d	file:
+ACCDET_PWM_EN_SW	mt8173/reg_accdet.h	96;"	d
+ACCDET_PWM_SEL_CMP	mt8173/reg_accdet.h	105;"	d
+ACCDET_PWM_SEL_MIC	mt8173/reg_accdet.h	107;"	d
+ACCDET_PWM_SEL_SW	mt8173/reg_accdet.h	108;"	d
+ACCDET_PWM_SEL_VTH	mt8173/reg_accdet.h	106;"	d
+ACCDET_PWM_THRESH	mt8173/reg_accdet.h	36;"	d
+ACCDET_PWM_WIDTH	mt8173/reg_accdet.h	35;"	d
+ACCDET_RESET_CLR	mt8173/reg_accdet.h	82;"	d
+ACCDET_RESET_SET	mt8173/reg_accdet.h	81;"	d
+ACCDET_RSV	mt8173/reg_accdet.h	31;"	d
+ACCDET_RSV_CON0	mt8173/reg_accdet.h	52;"	d
+ACCDET_RSV_CON1	mt8173/reg_accdet.h	53;"	d
+ACCDET_STATE_RG	mt8173/reg_accdet.h	49;"	d
+ACCDET_STATE_SWCTRL	mt8173/reg_accdet.h	34;"	d
+ACCDET_SWCTRL_EN	mt8173/reg_accdet.h	101;"	d
+ACCDET_SWCTRL_IDLE_EN	mt8173/reg_accdet.h	109;"	d
+ACCDET_TEST_MODE0_GPI	mt8173/reg_accdet.h	116;"	d
+ACCDET_TEST_MODE1_CMP_SW	mt8173/reg_accdet.h	115;"	d
+ACCDET_TEST_MODE2_VTH_SW	mt8173/reg_accdet.h	114;"	d
+ACCDET_TEST_MODE3_MIC_SW	mt8173/reg_accdet.h	113;"	d
+ACCDET_TEST_MODE4_ACCDET_IN_SW	mt8173/reg_accdet.h	112;"	d
+ACCDET_TEST_MODE5_ACCDET_IN_GPI	mt8173/reg_accdet.h	111;"	d
+ACCDET_TIME_OUT	mt8173/accdet.h	68;"	d
+ACCDET_VTH_EN	mt8173/reg_accdet.h	75;"	d
+ACCDET_VTH_EN_SW	mt8173/reg_accdet.h	98;"	d
+ACCDET_VTH_PWM_IDLE	mt8173/reg_accdet.h	72;"	d
+ACC_ANSWER_CALL	mt8173/accdet.c	623;"	d	file:
+ACC_END_CALL	mt8173/accdet.c	624;"	d	file:
+ACC_MEDIA_NEXT	mt8173/accdet.c	629;"	d	file:
+ACC_MEDIA_PLAYPAUSE	mt8173/accdet.c	625;"	d	file:
+ACC_MEDIA_PREVIOUS	mt8173/accdet.c	630;"	d	file:
+ACC_MEDIA_STOP	mt8173/accdet.c	628;"	d	file:
+ACC_VOLUMEDOWN	mt8173/accdet.c	632;"	d	file:
+ACC_VOLUMEUP	mt8173/accdet.c	631;"	d	file:
+ADC_GE	mt8173/accdet.c	/^static int ADC_GE;$/;"	v	file:
+ADC_OE	mt8173/accdet.c	/^static int ADC_OE;$/;"	v	file:
+ANSWER_CALL	mt8173/accdet.h	/^	ANSWER_CALL = 1,$/;"	e	enum:hook_switch_result
+AS_KEY	mt8173/accdet.c	399;"	d	file:
+CALL_ACTIVE	mt8173/accdet.h	64;"	d
+CALL_IDLE	mt8173/accdet.h	62;"	d
+CALL_RINGING	mt8173/accdet.h	63;"	d
+DEBUG_THREAD	mt8173/accdet.c	21;"	d	file:
+DO_NOTHING	mt8173/accdet.h	/^	DO_NOTHING = 0,$/;"	e	enum:hook_switch_result
+DW_KEY	mt8173/accdet.c	396;"	d	file:
+DW_KEY_HIGH_THR	mt8173/accdet.c	424;"	d	file:
+DW_KEY_THR	mt8173/accdet.c	425;"	d	file:
+EINT_PIN_PLUG_IN	mt8173/accdet.c	77;"	d	file:
+EINT_PIN_PLUG_OUT	mt8173/accdet.c	78;"	d	file:
+GET_BUTTON_STATUS	mt8173/accdet.h	58;"	d
+HEADSET_MIC	mt8173/accdet.h	/^	HEADSET_MIC = 1,$/;"	e	enum:accdet_report_state
+HEADSET_NO_MIC	mt8173/accdet.h	/^	HEADSET_NO_MIC = 2,$/;"	e	enum:accdet_report_state
+HOOK_SWITCH	mt8173/accdet.h	/^	HOOK_SWITCH = 2,$/;"	e	enum:accdet_status
+INT_CON_ACCDET	mt8173/reg_accdet.h	20;"	d
+INT_CON_ACCDET_CLR	mt8173/reg_accdet.h	22;"	d
+INT_CON_ACCDET_SET	mt8173/reg_accdet.h	21;"	d
+INT_STATUS_ACCDET	mt8173/reg_accdet.h	24;"	d
+IRQ_CLR_BIT	mt8173/reg_accdet.h	84;"	d
+IRQ_CLR_FLAG	mt8173/accdet.c	/^static bool IRQ_CLR_FLAG;$/;"	v	file:
+IRQ_STATUS_BIT	mt8173/reg_accdet.h	85;"	d
+KEYDOWN_FLAG	mt8173/accdet.c	410;"	d	file:
+KEYDOWN_FLAG	mt8173/accdet.c	65;"	d	file:
+KEYUP_FLAG	mt8173/accdet.c	411;"	d	file:
+KEYUP_FLAG	mt8173/accdet.c	66;"	d	file:
+KEY_CALL	mt8173/accdet.h	65;"	d
+KEY_ENDCALL	mt8173/accdet.h	66;"	d
+KEY_SAMPLE_PERIOD	mt8173/accdet.c	390;"	d	file:
+LONG_DW	mt8173/accdet.c	408;"	d	file:
+LONG_MD	mt8173/accdet.c	407;"	d	file:
+LONG_PRESS	mt8173/accdet.c	402;"	d	file:
+LONG_UP	mt8173/accdet.c	406;"	d	file:
+MD_KEY	mt8173/accdet.c	395;"	d	file:
+MD_KEY_THR	mt8173/accdet.c	427;"	d	file:
+MICBIAS_DISABLE_TIMER	mt8173/accdet.c	73;"	d	file:
+MIC_BIAS	mt8173/accdet.h	/^	MIC_BIAS = 1,$/;"	e	enum:accdet_status
+MULTIKEY_ADC_CHANNEL	mt8173/accdet.c	391;"	d	file:
+NO_DEVICE	mt8173/accdet.h	/^	NO_DEVICE = 0,$/;"	e	enum:accdet_report_state
+NO_KEY	mt8173/accdet.c	393;"	d	file:
+PLUG_OUT	mt8173/accdet.h	/^	PLUG_OUT = 0,$/;"	e	enum:accdet_status
+REGISTER_VALUE	mt8173/accdet.c	28;"	d	file:
+REJECT_CALL	mt8173/accdet.h	/^	REJECT_CALL = 2$/;"	e	enum:hook_switch_result
+RG_ACCDET_CLK_CLR	mt8173/reg_accdet.h	93;"	d
+RG_ACCDET_CLK_SET	mt8173/reg_accdet.h	92;"	d
+RG_ACCDET_IRQ_CLR	mt8173/reg_accdet.h	88;"	d
+RG_ACCDET_IRQ_SET	mt8173/reg_accdet.h	87;"	d
+RG_ACCDET_IRQ_STATUS_CLR	mt8173/reg_accdet.h	89;"	d
+SET_CALL_STATE	mt8173/accdet.h	57;"	d
+SHORT_DW	mt8173/accdet.c	405;"	d	file:
+SHORT_MD	mt8173/accdet.c	404;"	d	file:
+SHORT_PRESS	mt8173/accdet.c	401;"	d	file:
+SHORT_UP	mt8173/accdet.c	403;"	d	file:
+STAND_BY	mt8173/accdet.h	/^	STAND_BY = 4$/;"	e	enum:accdet_status
+SW_WORK_AROUND_ACCDET_REMOTE_BUTTON_ISSUE	mt8173/accdet.c	23;"	d	file:
+TOP_CKPDN	mt8173/reg_accdet.h	27;"	d
+TOP_CKPDN_CLR	mt8173/reg_accdet.h	29;"	d
+TOP_CKPDN_SET	mt8173/reg_accdet.h	28;"	d
+TOP_RST_ACCDET	mt8173/reg_accdet.h	16;"	d
+TOP_RST_ACCDET_CLR	mt8173/reg_accdet.h	18;"	d
+TOP_RST_ACCDET_SET	mt8173/reg_accdet.h	17;"	d
+UP_KEY	mt8173/accdet.c	394;"	d	file:
+UP_KEY_THR	mt8173/accdet.c	426;"	d	file:
+_ACCDEH_H_	mt8173/accdet.h	15;"	d
+accdet_attr_list	mt8173/accdet.c	/^static struct driver_attribute *accdet_attr_list[] = {$/;"	v	typeref:struct:driver_attribute	file:
+accdet_auxadc_offset	mt8173/accdet.c	/^s8 accdet_auxadc_offset;$/;"	v
+accdet_auxadc_switch	mt8173/accdet.c	/^void accdet_auxadc_switch(int enable)$/;"	f
+accdet_cable_type_state	accdet_drv.c	/^EXPORT_SYMBOL(accdet_cable_type_state);$/;"	v
+accdet_cable_type_state	accdet_drv.c	/^int accdet_cable_type_state(void)$/;"	f
+accdet_cdev	mt8173/accdet.c	/^static struct cdev *accdet_cdev;$/;"	v	typeref:struct:cdev	file:
+accdet_class	mt8173/accdet.c	/^static struct class *accdet_class;$/;"	v	typeref:struct:class	file:
+accdet_create_attr	mt8173/accdet.c	/^static int accdet_create_attr(struct device_driver *driver)$/;"	f	file:
+accdet_data	mt8173/accdet.c	/^static struct switch_dev accdet_data;$/;"	v	typeref:struct:switch_dev	file:
+accdet_detect	mt8173/accdet.c	/^EXPORT_SYMBOL(accdet_detect);$/;"	v
+accdet_detect	mt8173/accdet.c	/^void accdet_detect(void)$/;"	f
+accdet_devno	mt8173/accdet.c	/^static dev_t accdet_devno;$/;"	v	file:
+accdet_disable_work	mt8173/accdet.c	/^static struct work_struct accdet_disable_work;$/;"	v	typeref:struct:work_struct	file:
+accdet_disable_workqueue	mt8173/accdet.c	/^static struct workqueue_struct *accdet_disable_workqueue;$/;"	v	typeref:struct:workqueue_struct	file:
+accdet_driver	accdet_drv.c	/^static struct platform_driver accdet_driver = {$/;"	v	typeref:struct:platform_driver	file:
+accdet_driver	accdet_drv.c	/^static struct platform_driver accdet_driver;$/;"	v	typeref:struct:platform_driver	file:
+accdet_driver_func	accdet_drv.c	/^struct platform_driver accdet_driver_func(void)$/;"	f
+accdet_dts_data	mt8173/accdet.c	/^struct head_dts_data accdet_dts_data;$/;"	v	typeref:struct:head_dts_data
+accdet_eint_func	mt8173/accdet.c	/^static irqreturn_t accdet_eint_func(int irq, void *data)$/;"	f	file:
+accdet_eint_int_handler	mt8173/accdet.c	/^void accdet_eint_int_handler(void)$/;"	f
+accdet_eint_type	mt8173/accdet.c	/^unsigned int accdet_eint_type;$/;"	v
+accdet_eint_work	mt8173/accdet.c	/^static struct work_struct accdet_eint_work;$/;"	v	typeref:struct:work_struct	file:
+accdet_eint_work_callback	mt8173/accdet.c	/^static void accdet_eint_work_callback(struct work_struct *work)$/;"	f	file:
+accdet_eint_workqueue	mt8173/accdet.c	/^static struct workqueue_struct *accdet_eint_workqueue;$/;"	v	typeref:struct:workqueue_struct	file:
+accdet_fops	accdet_drv.c	/^static const struct file_operations accdet_fops = {$/;"	v	typeref:struct:file_operations	file:
+accdet_get_GE_OE	mt8173/accdet.c	/^void accdet_get_GE_OE(void)$/;"	f
+accdet_get_cable_type	mt8173/accdet.c	/^int accdet_get_cable_type(void)$/;"	f
+accdet_get_dts_data	mt8173/accdet.c	/^void accdet_get_dts_data(void)$/;"	f
+accdet_get_fops	accdet_drv.c	/^const struct file_operations *accdet_get_fops(void)$/;"	f
+accdet_init	mt8173/accdet.c	/^static inline void accdet_init(void)$/;"	f	file:
+accdet_int_handler	mt8173/accdet.c	/^void accdet_int_handler(void)$/;"	f
+accdet_irq	mt8173/accdet.c	/^int accdet_irq;$/;"	v
+accdet_irq_handler	mt8173/accdet.c	/^int accdet_irq_handler(void)$/;"	f
+accdet_irq_lock	mt8173/accdet.c	/^struct wake_lock accdet_irq_lock;$/;"	v	typeref:struct:wake_lock
+accdet_key_event	mt8173/accdet.c	/^static int accdet_key_event;$/;"	v	file:
+accdet_key_lock	mt8173/accdet.c	/^struct wake_lock accdet_key_lock;$/;"	v	typeref:struct:wake_lock
+accdet_mic_mode	mt8173/accdet.h	/^	int accdet_mic_mode;$/;"	m	struct:head_dts_data
+accdet_mod_exit	accdet_drv.c	/^module_exit(accdet_mod_exit);$/;"	v
+accdet_mod_exit	accdet_drv.c	/^static void accdet_mod_exit(void)$/;"	f	file:
+accdet_mod_init	accdet_drv.c	/^module_init(accdet_mod_init);$/;"	v
+accdet_mod_init	accdet_drv.c	/^static int accdet_mod_init(void)$/;"	f	file:
+accdet_nor_device	mt8173/accdet.c	/^static struct device *accdet_nor_device;$/;"	v	typeref:struct:device	file:
+accdet_of_match	accdet_drv.c	/^struct of_device_id accdet_of_match[] = {$/;"	v	typeref:struct:of_device_id
+accdet_open	accdet_drv.c	/^static int accdet_open(struct inode *inode, struct file *file)$/;"	f	file:
+accdet_plugout_debounce	mt8173/accdet.h	/^	int accdet_plugout_debounce;$/;"	m	struct:head_dts_data
+accdet_pm_ops	accdet_drv.c	/^static const struct dev_pm_ops accdet_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+accdet_pm_restore_noirq	accdet_drv.c	/^static int accdet_pm_restore_noirq(struct device *device)$/;"	f	file:
+accdet_probe	accdet_drv.c	/^static int accdet_probe(struct platform_device *dev)$/;"	f	file:
+accdet_release	accdet_drv.c	/^static int accdet_release(struct inode *inode, struct file *file)$/;"	f	file:
+accdet_remove	accdet_drv.c	/^static int accdet_remove(struct platform_device *dev)$/;"	f	file:
+accdet_report_state	mt8173/accdet.h	/^enum accdet_report_state {$/;"	g
+accdet_report_string	mt8173/accdet.c	/^char *accdet_report_string[4] = {$/;"	v
+accdet_resume	accdet_drv.c	/^static int accdet_resume(struct device *device)$/;"	f	file:
+accdet_setup_eint	mt8173/accdet.c	/^static inline int accdet_setup_eint(struct platform_device *accdet_device)$/;"	f	file:
+accdet_state_reset	mt8173/accdet.c	/^EXPORT_SYMBOL(accdet_state_reset);$/;"	v
+accdet_state_reset	mt8173/accdet.c	/^void accdet_state_reset(void)$/;"	f
+accdet_status	mt8173/accdet.c	/^static int accdet_status = PLUG_OUT;$/;"	v	file:
+accdet_status	mt8173/accdet.h	/^enum accdet_status {$/;"	g
+accdet_status_string	mt8173/accdet.c	/^char *accdet_status_string[5] = {$/;"	v
+accdet_store_call_state	mt8173/accdet.c	/^static ssize_t accdet_store_call_state(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+accdet_suspend	accdet_drv.c	/^static int accdet_suspend(struct device *device)$/;"	f	file:
+accdet_suspend_lock	mt8173/accdet.c	/^struct wake_lock accdet_suspend_lock;$/;"	v	typeref:struct:wake_lock
+accdet_timer_lock	mt8173/accdet.c	/^struct wake_lock accdet_timer_lock;$/;"	v	typeref:struct:wake_lock
+accdet_unlocked_ioctl	accdet_drv.c	/^static long accdet_unlocked_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+accdet_work	mt8173/accdet.c	/^static struct work_struct accdet_work;$/;"	v	typeref:struct:work_struct	file:
+accdet_work_callback	mt8173/accdet.c	/^static void accdet_work_callback(struct work_struct *work)$/;"	f	file:
+accdet_workqueue	mt8173/accdet.c	/^static struct workqueue_struct *accdet_workqueue;$/;"	v	typeref:struct:workqueue_struct	file:
+accdet_workqueue_func	mt8173/accdet.c	/^static void accdet_workqueue_func(void)$/;"	f	file:
+button_press_debounce	mt8173/accdet.c	/^static int button_press_debounce = 0x400;$/;"	v	file:
+button_status	mt8173/accdet.c	/^static int button_status;$/;"	v	file:
+cable_type	mt8173/accdet.c	/^static int cable_type;$/;"	v	file:
+call_status	mt8173/accdet.c	/^static int call_status;$/;"	v	file:
+check_cable_type	mt8173/accdet.c	/^static inline void check_cable_type(void)$/;"	f	file:
+clear_accdet_eint_interrupt	mt8173/accdet.c	/^static inline void clear_accdet_eint_interrupt(void)$/;"	f	file:
+clear_accdet_interrupt	mt8173/accdet.c	/^static inline void clear_accdet_interrupt(void)$/;"	f	file:
+cur_eint_state	mt8173/accdet.c	/^int cur_eint_state = EINT_PIN_PLUG_OUT;$/;"	v
+cur_key	mt8173/accdet.c	/^int cur_key = 0;$/;"	v
+cust_headset_settings	mt8173/accdet.c	/^struct headset_mode_settings *cust_headset_settings;$/;"	v	typeref:struct:headset_mode_settings
+dbug_thread	mt8173/accdet.c	/^static int dbug_thread(void *unused)$/;"	f	file:
+debounce0	mt8173/accdet.h	/^	int debounce0;		\/*hook switch or double check debounce*\/$/;"	m	struct:headset_mode_settings
+debounce1	mt8173/accdet.h	/^	int debounce1;		\/*mic bias debounce*\/$/;"	m	struct:headset_mode_settings
+debounce3	mt8173/accdet.h	/^	int debounce3;		\/*plug out debounce*\/$/;"	m	struct:headset_mode_settings
+debug_enable_drv	accdet_drv.c	/^static int debug_enable_drv = 1;$/;"	v	file:
+disable_accdet	mt8173/accdet.c	/^static inline void disable_accdet(void)$/;"	f	file:
+disable_micbias	mt8173/accdet.c	/^static void disable_micbias(unsigned long a)$/;"	f	file:
+disable_micbias_callback	mt8173/accdet.c	/^static void disable_micbias_callback(struct work_struct *work)$/;"	f	file:
+down_key	mt8173/accdet.h	/^	int down_key;$/;"	m	struct:three_key_threshold
+down_key_four	mt8173/accdet.h	/^	int down_key_four;$/;"	m	struct:four_key_threshold
+dump_register	mt8173/accdet.c	/^static int dump_register(void)$/;"	f	file:
+eint_accdet_sync_flag	mt8173/accdet.c	/^static int eint_accdet_sync_flag;$/;"	v	file:
+enable_accdet	mt8173/accdet.c	/^static inline void enable_accdet(u32 state_swctrl)$/;"	f	file:
+ext_pa_enable	mt8173/accdet.c	/^bool ext_pa_enable = true;$/;"	v
+fall_delay	mt8173/accdet.h	/^	int fall_delay;		\/*falling stable time*\/$/;"	m	struct:headset_mode_settings
+four_key	mt8173/accdet.h	/^	struct four_key_threshold four_key;$/;"	m	struct:head_dts_data	typeref:struct:head_dts_data::four_key_threshold
+four_key_threshold	mt8173/accdet.h	/^struct four_key_threshold {$/;"	s
+g_accdet_first	mt8173/accdet.c	/^static int g_accdet_first = 1;$/;"	v	file:
+g_dump_register	mt8173/accdet.c	/^static int g_dump_register;$/;"	v	file:
+g_start_debug_thread	mt8173/accdet.c	/^static int g_start_debug_thread;$/;"	v	file:
+head_dts_data	mt8173/accdet.h	/^struct head_dts_data {$/;"	s
+headset_debounce	mt8173/accdet.h	/^	struct headset_mode_settings headset_debounce;$/;"	m	struct:head_dts_data	typeref:struct:head_dts_data::headset_mode_settings
+headset_mode_settings	mt8173/accdet.h	/^struct headset_mode_settings {$/;"	s
+headset_plug_out	mt8173/accdet.c	/^static inline void headset_plug_out(void)$/;"	f	file:
+headsetdebounce	mt8173/accdet.c	/^unsigned int headsetdebounce;$/;"	v
+hook_switch_result	mt8173/accdet.h	/^enum hook_switch_result {$/;"	g
+key_check	mt8173/accdet.c	/^static int key_check(int b)$/;"	f	file:
+kpd_accdet_dev	mt8173/accdet.c	/^static struct input_dev *kpd_accdet_dev;$/;"	v	typeref:struct:input_dev	file:
+long_press_time	mt8173/accdet.c	/^static int long_press_time = 2000;$/;"	v	file:
+mic_mode_vol	mt8173/accdet.h	/^	int mic_mode_vol;$/;"	m	struct:head_dts_data
+micbias_timer	mt8173/accdet.c	/^struct timer_list micbias_timer;$/;"	v	typeref:struct:timer_list
+mid_key	mt8173/accdet.h	/^	int mid_key;$/;"	m	struct:three_key_threshold
+mid_key_four	mt8173/accdet.h	/^	int mid_key_four;$/;"	m	struct:four_key_threshold
+mt_accdet_pm_restore_noirq	mt8173/accdet.c	/^void mt_accdet_pm_restore_noirq(void)$/;"	f
+mt_accdet_probe	mt8173/accdet.c	/^int mt_accdet_probe(struct platform_device *dev)$/;"	f
+mt_accdet_remove	mt8173/accdet.c	/^void mt_accdet_remove(void)$/;"	f
+mt_accdet_resume	mt8173/accdet.c	/^void mt_accdet_resume(void)	\/*wake up*\/$/;"	f
+mt_accdet_suspend	mt8173/accdet.c	/^void mt_accdet_suspend(void)	\/*only one suspend mode*\/$/;"	f
+mt_accdet_unlocked_ioctl	mt8173/accdet.c	/^long mt_accdet_unlocked_ioctl(unsigned int cmd, unsigned long arg)$/;"	f
+multi_key_detection	mt8173/accdet.c	/^static int multi_key_detection(void)$/;"	f	file:
+notify_sendKeyEvent	mt8173/accdet.c	/^static ssize_t notify_sendKeyEvent(int event)$/;"	f	file:
+pmic_pwrap_read	mt8173/accdet.c	/^static u32 pmic_pwrap_read(u32 addr)$/;"	f	file:
+pmic_pwrap_write	mt8173/accdet.c	/^static void pmic_pwrap_write(unsigned int addr, unsigned int wdata)$/;"	f	file:
+pre_state_swctrl	mt8173/accdet.c	/^static int pre_state_swctrl;$/;"	v	file:
+pre_status	mt8173/accdet.c	/^static int pre_status;$/;"	v	file:
+pwm_thresh	mt8173/accdet.h	/^	int pwm_thresh;		\/*pwm duty*\/$/;"	m	struct:headset_mode_settings
+pwm_width	mt8173/accdet.h	/^	int pwm_width;		\/*pwm frequence*\/$/;"	m	struct:headset_mode_settings
+rise_delay	mt8173/accdet.h	/^	int rise_delay;		\/*rising stable time*\/$/;"	m	struct:headset_mode_settings
+sendKeyEvent	mt8173/accdet.c	/^static int sendKeyEvent(void *unuse)$/;"	f	file:
+send_event_flag	mt8173/accdet.c	/^static atomic_t send_event_flag = ATOMIC_INIT(0);$/;"	v	file:
+send_key_event	mt8173/accdet.c	/^static void send_key_event(int keycode, int flag)$/;"	f	file:
+show_pin_recognition_state	mt8173/accdet.c	/^static ssize_t show_pin_recognition_state(struct device_driver *ddri, char *buf)$/;"	f	file:
+store_accdet_dump_register	mt8173/accdet.c	/^static ssize_t store_accdet_dump_register(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+store_accdet_set_headset_mode	mt8173/accdet.c	/^static ssize_t store_accdet_set_headset_mode(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+store_accdet_start_debug_thread	mt8173/accdet.c	/^static ssize_t store_accdet_start_debug_thread(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+thread	mt8173/accdet.c	/^static struct task_struct *thread;$/;"	v	typeref:struct:task_struct	file:
+three_key	mt8173/accdet.h	/^	struct three_key_threshold three_key;$/;"	m	struct:head_dts_data	typeref:struct:head_dts_data::three_key_threshold
+three_key_threshold	mt8173/accdet.h	/^struct three_key_threshold {$/;"	s
+up_key	mt8173/accdet.h	/^	int up_key;$/;"	m	struct:three_key_threshold
+up_key_four	mt8173/accdet.h	/^	int up_key_four;$/;"	m	struct:four_key_threshold
+voice_key_four	mt8173/accdet.h	/^	int voice_key_four;$/;"	m	struct:four_key_threshold

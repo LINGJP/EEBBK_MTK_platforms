@@ -1,0 +1,241 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AP3220	ap3220.c	59;"	d	file:
+AP3220_LED_CTRL	ap3xx6c.h	87;"	d
+AP3220_LED_PULSE_MASK	ap3xx6c.h	90;"	d
+AP3220_LED_PULSE_SHIFT	ap3xx6c.h	89;"	d
+AP3220_LED_RATIO_MASK	ap3xx6c.h	97;"	d
+AP3220_LED_RATIO_SHIFT	ap3xx6c.h	96;"	d
+AP3220_LED_WAITING	ap3xx6c.h	120;"	d
+AP3220_LED_WAIT_0	ap3xx6c.h	123;"	d
+AP3220_LED_WAIT_1	ap3xx6c.h	124;"	d
+AP3220_LED_WAIT_2	ap3xx6c.h	125;"	d
+AP3220_LED_WAIT_MASK	ap3xx6c.h	121;"	d
+AP3220_LED_WAIT_SHIFT	ap3xx6c.h	122;"	d
+AP3220_PS_CALI_H	ap3xx6c.h	130;"	d
+AP3220_PS_CALI_L	ap3xx6c.h	129;"	d
+AP3220_PS_CONFIG	ap3xx6c.h	58;"	d
+AP3220_PS_CONFIG_BIT4	ap3xx6c.h	70;"	d
+AP3220_PS_CONFIG_BIT5	ap3xx6c.h	69;"	d
+AP3220_PS_CONFIG_BIT6	ap3xx6c.h	68;"	d
+AP3220_PS_DATA_HIGH_TH	bbk_alsps.h	22;"	d
+AP3220_PS_GAIN_1	ap3xx6c.h	74;"	d
+AP3220_PS_GAIN_2	ap3xx6c.h	75;"	d
+AP3220_PS_GAIN_4	ap3xx6c.h	76;"	d
+AP3220_PS_GAIN_8	ap3xx6c.h	77;"	d
+AP3220_PS_GAIN_MASK	ap3xx6c.h	73;"	d
+AP3220_PS_GAIN_SHIFT	ap3xx6c.h	72;"	d
+AP3220_PS_HOR_DATA_LOW_TH	bbk_alsps.h	24;"	d
+AP3220_PS_HOR_DELTA_1	bbk_alsps.h	25;"	d
+AP3220_PS_HOR_DELTA_2	bbk_alsps.h	26;"	d
+AP3220_PS_INTG_MASK	ap3xx6c.h	61;"	d
+AP3220_PS_INTG_SHIFT	ap3xx6c.h	60;"	d
+AP3220_PS_INTG_TIME_1	ap3xx6c.h	62;"	d
+AP3220_PS_INTG_TIME_16	ap3xx6c.h	66;"	d
+AP3220_PS_INTG_TIME_2	ap3xx6c.h	63;"	d
+AP3220_PS_INTG_TIME_3	ap3xx6c.h	64;"	d
+AP3220_PS_INTG_TIME_9	ap3xx6c.h	65;"	d
+AP3220_PS_INT_HYST	ap3xx6c.h	108;"	d
+AP3220_PS_INT_MASK	ap3xx6c.h	105;"	d
+AP3220_PS_INT_MODE	ap3xx6c.h	104;"	d
+AP3220_PS_INT_SHIFT	ap3xx6c.h	106;"	d
+AP3220_PS_INT_ZONE	ap3xx6c.h	107;"	d
+AP3220_PS_LED_PULSE_0	ap3xx6c.h	91;"	d
+AP3220_PS_LED_PULSE_1	ap3xx6c.h	92;"	d
+AP3220_PS_LED_PULSE_2	ap3xx6c.h	93;"	d
+AP3220_PS_LED_PULSE_3	ap3xx6c.h	94;"	d
+AP3220_PS_LED_RATIO_100	ap3xx6c.h	101;"	d
+AP3220_PS_LED_RATIO_16	ap3xx6c.h	98;"	d
+AP3220_PS_LED_RATIO_33	ap3xx6c.h	99;"	d
+AP3220_PS_LED_RATIO_66	ap3xx6c.h	100;"	d
+AP3220_PS_LTHH	ap3xx6c.h	139;"	d
+AP3220_PS_LTHL	ap3xx6c.h	133;"	d
+AP3220_PS_LTHL_BIT	ap3xx6c.h	136;"	d
+AP3220_PS_LTHL_MASK	ap3xx6c.h	135;"	d
+AP3220_PS_LTHL_SHIFT	ap3xx6c.h	134;"	d
+AP3220_PS_MEAN_MASK	ap3xx6c.h	112;"	d
+AP3220_PS_MEAN_SHIFT	ap3xx6c.h	113;"	d
+AP3220_PS_MEAN_TIME	ap3xx6c.h	111;"	d
+AP3220_PS_MEAN_TIME_12	ap3xx6c.h	114;"	d
+AP3220_PS_MEAN_TIME_25	ap3xx6c.h	115;"	d
+AP3220_PS_MEAN_TIME_37	ap3xx6c.h	116;"	d
+AP3220_PS_MEAN_TIME_50	ap3xx6c.h	117;"	d
+AP3220_PS_PERSIST_1	ap3xx6c.h	81;"	d
+AP3220_PS_PERSIST_2	ap3xx6c.h	82;"	d
+AP3220_PS_PERSIST_4	ap3xx6c.h	83;"	d
+AP3220_PS_PERSIST_8	ap3xx6c.h	84;"	d
+AP3220_PS_PERSIST_MASK	ap3xx6c.h	80;"	d
+AP3220_PS_PERSIST_SHIFT	ap3xx6c.h	79;"	d
+AP3220_PS_THRESHOLE_LEVELS	bbk_alsps.h	23;"	d
+AP3XX6_DEV_NAME	ap3220.c	67;"	d	file:
+AP3XX6_DEV_NAME	ap3220.c	69;"	d	file:
+AP3xx6_ADATA_H	ap3xx6c.h	40;"	d
+AP3xx6_ADATA_L	ap3xx6c.h	39;"	d
+AP3xx6_ENABLE	ap3xx6c.h	36;"	d
+AP3xx6_ERR_GETGSENSORDATA	ap3xx6c.h	54;"	d
+AP3xx6_ERR_I2C	ap3xx6c.h	51;"	d
+AP3xx6_ERR_IDENTIFICATION	ap3xx6c.h	55;"	d
+AP3xx6_ERR_SETUP_FAILURE	ap3xx6c.h	53;"	d
+AP3xx6_ERR_STATUS	ap3xx6c.h	52;"	d
+AP3xx6_INT_CTL	ap3xx6c.h	38;"	d
+AP3xx6_INT_HIGH_THD_HIGH	ap3xx6c.h	46;"	d
+AP3xx6_INT_HIGH_THD_LOW	ap3xx6c.h	45;"	d
+AP3xx6_INT_LOW_THD_HIGH	ap3xx6c.h	44;"	d
+AP3xx6_INT_LOW_THD_LOW	ap3xx6c.h	43;"	d
+AP3xx6_INT_STATUS	ap3xx6c.h	37;"	d
+AP3xx6_PDATA_H	ap3xx6c.h	42;"	d
+AP3xx6_PDATA_L	ap3xx6c.h	41;"	d
+AP3xx6_SUCCESS	ap3xx6c.h	50;"	d
+APS_DBG	bbk_alsps.h	16;"	d
+APS_ERR	bbk_alsps.h	14;"	d
+APS_FUN	bbk_alsps.h	13;"	d
+APS_LOG	bbk_alsps.h	15;"	d
+APS_TAG	bbk_alsps.h	12;"	d
+CMC_BIT	ap3220.c	/^} CMC_BIT;$/;"	t	typeref:enum:__anon1	file:
+CMC_BIT_ALS	ap3220.c	/^	CMC_BIT_ALS	= 1,$/;"	e	enum:__anon1	file:
+CMC_BIT_PS	ap3220.c	/^	CMC_BIT_PS	= 2,$/;"	e	enum:__anon1	file:
+Calibration_Flag	ap3220.c	/^u8 Calibration_Flag = 0;$/;"	v
+DBG_AP3220	bbk_alsps.h	11;"	d
+DELAYED_WORK	bbk_alsps.h	20;"	d
+DI_AUTO_CAL	ap3220.c	61;"	d	file:
+DI_PS_CAL_THR	ap3220.c	63;"	d	file:
+IOCTL_GET_LIGHT_CAIL	bbk_alsps.h	36;"	d
+IOCTL_GET_PS_CAIL	bbk_alsps.h	37;"	d
+LYQ_LOG	bbk_alsps.h	17;"	d
+NVRAM_IOCTL_SET_LIGHT	bbk_alsps.h	33;"	d
+NVRAM_IOCTL_SET_PS	bbk_alsps.h	34;"	d
+SAMPLE_PS_25	bbk_alsps.h	28;"	d
+SAMPLE_PS_FACE	bbk_alsps.h	27;"	d
+STANDARD_LIGHT_VALUE_HOR	bbk_alsps.h	31;"	d
+STANDARD_PS_HOR_VALUE	bbk_alsps.h	29;"	d
+TRACE_ALS	ap3220.c	/^	TRACE_ALS = 0x2,$/;"	e	enum:__anon2	file:
+TRACE_BIT	ap3220.c	/^} TRACE_BIT;$/;"	t	typeref:enum:__anon2	file:
+TRACE_DEBUG	ap3220.c	/^	TRACE_DEBUG = 0x1,$/;"	e	enum:__anon2	file:
+TRACE_PS	ap3220.c	/^	TRACE_PS = 0x4,$/;"	e	enum:__anon2	file:
+__AP3xx6_H__	ap3xx6c.h	32;"	d
+__BBK_ALSPS_H__	bbk_alsps.h	6;"	d
+_align	bbk_alsps.h	/^	u8		_align;$/;"	m	struct:ap3xx6_priv
+addr	bbk_alsps.h	/^	struct ap3xx6_i2c_addr addr;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::ap3xx6_i2c_addr
+als	bbk_alsps.h	/^	u16		als;$/;"	m	struct:ap3xx6_priv
+als_cail	bbk_alsps.h	/^	unsigned int	als_cail[3];$/;"	m	struct:ap3xx6_priv
+als_cmd_val	bbk_alsps.h	/^	atomic_t	als_cmd_val;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv
+als_deb_end	bbk_alsps.h	/^	atomic_t	als_deb_end;	\/*the jiffies representing the end of debounce*\/$/;"	m	struct:ap3xx6_priv
+als_deb_on	bbk_alsps.h	/^	atomic_t	als_deb_on;	\/*indicates if the debounce is on*\/$/;"	m	struct:ap3xx6_priv
+als_debounce	bbk_alsps.h	/^	atomic_t	als_debounce;	\/*debounce time after enabling als*\/$/;"	m	struct:ap3xx6_priv
+als_level	bbk_alsps.h	/^	u32		als_level[C_CUST_ALS_LEVEL-1];$/;"	m	struct:ap3xx6_priv
+als_level_num	bbk_alsps.h	/^	u16		als_level_num;$/;"	m	struct:ap3xx6_priv
+als_modulus	bbk_alsps.h	/^	u16			als_modulus;$/;"	m	struct:ap3xx6_priv
+als_suspend	bbk_alsps.h	/^	atomic_t	als_suspend;$/;"	m	struct:ap3xx6_priv
+als_value	bbk_alsps.h	/^	u32		als_value[C_CUST_ALS_LEVEL];$/;"	m	struct:ap3xx6_priv
+als_value_num	bbk_alsps.h	/^	u16		als_value_num;$/;"	m	struct:ap3xx6_priv
+alspsPltFmDev	ap3220.c	/^struct platform_device *alspsPltFmDev;$/;"	v	typeref:struct:platform_device
+alsps_cust	ap3220.c	/^struct alsps_hw alsps_cust;$/;"	v	typeref:struct:alsps_hw
+alsps_of_match	ap3220.c	/^static const struct of_device_id alsps_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+ap3220_change_ps_threshold	bbk_alsps.c	/^int ap3220_change_ps_threshold(struct i2c_client *client_res)$/;"	f
+ap3220_ps_init	ap3220.c	/^int ap3220_ps_init(struct i2c_client *client)$/;"	f
+ap3220_ps_threshole	bbk_alsps.c	/^static u16 ap3220_ps_threshole[AP3220_PS_THRESHOLE_LEVELS] = {$/;"	v	file:
+ap3xx6_Calibration	ap3220.c	/^int ap3xx6_Calibration(struct i2c_client *client)$/;"	f
+ap3xx6_Calibration_every_time	ap3220.c	/^static int ap3xx6_Calibration_every_time(struct i2c_client *client)$/;"	f	file:
+ap3xx6_NUM_CACHABLE_REGS	ap3220.c	1329;"	d	file:
+ap3xx6_als_data_show	ap3220.c	/^static ssize_t ap3xx6_als_data_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_als_enable_nodata	ap3220.c	/^static int ap3xx6_als_enable_nodata(int en)$/;"	f	file:
+ap3xx6_als_get_data	ap3220.c	/^static int ap3xx6_als_get_data(int *value, int *status)$/;"	f	file:
+ap3xx6_als_open_report_data	ap3220.c	/^static int ap3xx6_als_open_report_data(int open)$/;"	f	file:
+ap3xx6_als_rawdata_show	ap3220.c	/^static ssize_t ap3xx6_als_rawdata_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_als_set_delay	ap3220.c	/^static int ap3xx6_als_set_delay(u64 ns)$/;"	f	file:
+ap3xx6_attr_list	ap3220.c	/^static struct driver_attribute *ap3xx6_attr_list[] = {$/;"	v	typeref:struct:driver_attribute	file:
+ap3xx6_check_and_clear_intr	ap3220.c	/^static int ap3xx6_check_and_clear_intr(struct i2c_client *client)$/;"	f	file:
+ap3xx6_create_attr	ap3220.c	/^static int ap3xx6_create_attr(struct device_driver *driver)$/;"	f	file:
+ap3xx6_delete_attr	ap3220.c	/^static int ap3xx6_delete_attr(struct device_driver *driver)$/;"	f	file:
+ap3xx6_device	ap3220.c	/^static struct miscdevice ap3xx6_device = {$/;"	v	typeref:struct:miscdevice	file:
+ap3xx6_early_suspend	ap3220.c	/^static void ap3xx6_early_suspend(struct early_suspend *h)$/;"	f	file:
+ap3xx6_eint_func	ap3220.c	/^void ap3xx6_eint_func(void)$/;"	f
+ap3xx6_eint_handler	ap3220.c	/^static irqreturn_t ap3xx6_eint_handler(int irq, void *desc)$/;"	f	file:
+ap3xx6_eint_work	ap3220.c	/^static void ap3xx6_eint_work(struct work_struct *work)$/;"	f	file:
+ap3xx6_em_read	ap3220.c	/^static ssize_t ap3xx6_em_read(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_em_write	ap3220.c	/^static ssize_t ap3xx6_em_write(struct device_driver *ddri, const char *buf, size_t count)$/;"	f	file:
+ap3xx6_enable_als	ap3220.c	/^static int ap3xx6_enable_als(struct i2c_client *client, int enable)$/;"	f	file:
+ap3xx6_enable_ps	ap3220.c	/^static int ap3xx6_enable_ps(struct i2c_client *client, int enable)$/;"	f	file:
+ap3xx6_enable_ps_interrupt	ap3220.c	/^static int ap3xx6_enable_ps_interrupt(struct i2c_client *client, int enable)$/;"	f	file:
+ap3xx6_exit	ap3220.c	/^module_exit(ap3xx6_exit);$/;"	v
+ap3xx6_exit	ap3220.c	/^static void __exit ap3xx6_exit(void)$/;"	f	file:
+ap3xx6_fops	ap3220.c	/^static const struct file_operations ap3xx6_fops = {$/;"	v	typeref:struct:file_operations	file:
+ap3xx6_get_addr	ap3220.c	/^int ap3xx6_get_addr(struct alsps_hw *hw, struct ap3xx6_i2c_addr *addr)$/;"	f
+ap3xx6_get_als_value	ap3220.c	/^static int ap3xx6_get_als_value(struct ap3xx6_priv *obj, u16 als)$/;"	f	file:
+ap3xx6_get_ps_value	ap3220.c	/^static int ap3xx6_get_ps_value(struct ap3xx6_priv *obj, u16 ps)$/;"	f	file:
+ap3xx6_i2c_addr	bbk_alsps.h	/^struct ap3xx6_i2c_addr {        \/*define a series of i2c slave address*\/$/;"	s
+ap3xx6_i2c_client	ap3220.c	/^static struct i2c_client *ap3xx6_i2c_client;$/;"	v	typeref:struct:i2c_client	file:
+ap3xx6_i2c_detect	ap3220.c	/^static int ap3xx6_i2c_detect(struct i2c_client *client, struct i2c_board_info *info)$/;"	f	file:
+ap3xx6_i2c_driver	ap3220.c	/^static struct i2c_driver ap3xx6_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ap3xx6_i2c_id	ap3220.c	/^static const struct i2c_device_id ap3xx6_i2c_id[] = {{AP3XX6_DEV_NAME, 0}, {} };$/;"	v	typeref:struct:i2c_device_id	file:
+ap3xx6_i2c_probe	ap3220.c	/^static int ap3xx6_i2c_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ap3xx6_i2c_remove	ap3220.c	/^static int ap3xx6_i2c_remove(struct i2c_client *client)$/;"	f	file:
+ap3xx6_init	ap3220.c	/^module_init(ap3xx6_init);$/;"	v
+ap3xx6_init	ap3220.c	/^static int __init ap3xx6_init(void)$/;"	f	file:
+ap3xx6_init_als	ap3220.c	/^static int ap3xx6_init_als(struct i2c_client *client)$/;"	f	file:
+ap3xx6_init_client	ap3220.c	/^static int ap3xx6_init_client(struct i2c_client *client)	\/\/lyq$/;"	f	file:
+ap3xx6_init_flag	ap3220.c	/^static int ap3xx6_init_flag = -1; \/* 0<==>OK -1 <==> fail *\/$/;"	v	file:
+ap3xx6_init_info	ap3220.c	/^static struct alsps_init_info ap3xx6_init_info = {$/;"	v	typeref:struct:alsps_init_info	file:
+ap3xx6_ioctl	ap3220.c	/^static long ap3xx6_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+ap3xx6_late_resume	ap3220.c	/^static void ap3xx6_late_resume(struct early_suspend *h)$/;"	f	file:
+ap3xx6_local_init	ap3220.c	/^static int ap3xx6_local_init(void)$/;"	f	file:
+ap3xx6_obj	ap3220.c	/^static struct ap3xx6_priv *ap3xx6_obj;$/;"	v	typeref:struct:ap3xx6_priv	file:
+ap3xx6_open	ap3220.c	/^static int ap3xx6_open(struct inode *inode, struct file *file)$/;"	f	file:
+ap3xx6_power	ap3220.c	/^static void ap3xx6_power(struct alsps_hw *hw, unsigned int on)$/;"	f	file:
+ap3xx6_priv	bbk_alsps.h	/^struct ap3xx6_priv {$/;"	s
+ap3xx6_ps_data_show	ap3220.c	/^static ssize_t ap3xx6_ps_data_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_ps_enable_nodata	ap3220.c	/^static int ap3xx6_ps_enable_nodata(int en)$/;"	f	file:
+ap3xx6_ps_get_data	ap3220.c	/^static int ap3xx6_ps_get_data(int *value, int *status)$/;"	f	file:
+ap3xx6_ps_open_report_data	ap3220.c	/^static int ap3xx6_ps_open_report_data(int open)$/;"	f	file:
+ap3xx6_ps_rawdata_show	ap3220.c	/^static ssize_t ap3xx6_ps_rawdata_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_ps_set_delay	ap3220.c	/^static int ap3xx6_ps_set_delay(u64 ns)$/;"	f	file:
+ap3xx6_read_als	ap3220.c	/^int ap3xx6_read_als(struct i2c_client *client, u16 *data)$/;"	f
+ap3xx6_read_ps	ap3220.c	/^int ap3xx6_read_ps(struct i2c_client *client, u16 *data)$/;"	f
+ap3xx6_read_reg	ap3220.c	/^static int ap3xx6_read_reg(struct i2c_client *client,$/;"	f	file:
+ap3xx6_release	ap3220.c	/^static int ap3xx6_release(struct inode *inode, struct file *file)$/;"	f	file:
+ap3xx6_remove	ap3220.c	/^static int ap3xx6_remove(void)$/;"	f	file:
+ap3xx6_set_meantime	ap3220.c	/^static int ap3xx6_set_meantime(struct i2c_client *client, int val)$/;"	f	file:
+ap3xx6_set_phthres	ap3220.c	/^int ap3xx6_set_phthres(struct i2c_client *client, int val)$/;"	f
+ap3xx6_set_plthres	ap3220.c	/^int ap3xx6_set_plthres(struct i2c_client *client, int val)$/;"	f
+ap3xx6_setup_eint	ap3220.c	/^int ap3xx6_setup_eint(struct i2c_client *client)$/;"	f
+ap3xx6_status_show	ap3220.c	/^static ssize_t ap3xx6_status_show(struct device_driver *ddri, char *buf)$/;"	f	file:
+ap3xx6_write_reg	ap3220.c	/^static int ap3xx6_write_reg(struct i2c_client *client,$/;"	f	file:
+apdev_name	ap3220.c	/^char *apdev_name = AP3XX6_DEV_NAME;$/;"	v
+chrg_lock	ap3220.c	/^static struct wake_lock chrg_lock;$/;"	v	typeref:struct:wake_lock	file:
+client	bbk_alsps.h	/^	struct i2c_client *client;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::i2c_client
+early_drv	bbk_alsps.h	/^	struct early_suspend	early_drv;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::early_suspend
+eint_work	bbk_alsps.h	/^	struct delayed_work eint_work;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::delayed_work
+eint_work	bbk_alsps.h	/^	struct work_struct eint_work;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::work_struct
+enable	bbk_alsps.h	/^	ulong		enable;		\/*enable mask*\/$/;"	m	struct:ap3xx6_priv
+get_cust_alsps	ap3220.c	/^struct alsps_hw *get_cust_alsps(void)$/;"	f
+get_ps_level	bbk_alsps.c	/^int get_ps_level(struct i2c_client *client,int val)$/;"	f
+hw	ap3220.c	/^static struct alsps_hw *hw = &alsps_cust;$/;"	v	typeref:struct:alsps_hw	file:
+hw	bbk_alsps.h	/^	struct alsps_hw *hw;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::alsps_hw
+i2c_retry	bbk_alsps.h	/^	atomic_t	i2c_retry;$/;"	m	struct:ap3xx6_priv
+irq	bbk_alsps.h	/^	int irq;$/;"	m	struct:ap3xx6_priv
+irq_node	bbk_alsps.h	/^	struct device_node *irq_node;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::device_node
+last_ps_index	bbk_alsps.c	/^static int last_ps_index = 0xff;$/;"	v	file:
+lock	bbk_alsps.h	/^	struct mutex lock;$/;"	m	struct:ap3xx6_priv	typeref:struct:ap3xx6_priv::mutex
+pending_intr	bbk_alsps.h	/^	ulong		pending_intr;	\/*pending interrupt*\/$/;"	m	struct:ap3xx6_priv
+prev_cal_data	ap3220.c	/^		u16 prev_cal_data = 0;$/;"	v
+ps	bbk_alsps.h	/^	u16		ps;$/;"	m	struct:ap3xx6_priv
+ps_cail	bbk_alsps.h	/^	unsigned int	ps_cail[2];$/;"	m	struct:ap3xx6_priv
+ps_cmd_val	bbk_alsps.h	/^	atomic_t	ps_cmd_val;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv
+ps_deb_end	bbk_alsps.h	/^	atomic_t	ps_deb_end;	\/*the jiffies representing the end of debounce*\/$/;"	m	struct:ap3xx6_priv
+ps_deb_on	bbk_alsps.h	/^	atomic_t	ps_deb_on;		\/*indicates if the debounce is on*\/$/;"	m	struct:ap3xx6_priv
+ps_debounce	bbk_alsps.h	/^	atomic_t	ps_debounce;	\/*debounce time after enabling ps*\/$/;"	m	struct:ap3xx6_priv
+ps_mask	bbk_alsps.h	/^	atomic_t	ps_mask;		\/*mask ps: always return far away*\/$/;"	m	struct:ap3xx6_priv
+ps_suspend	bbk_alsps.h	/^	atomic_t	ps_suspend;$/;"	m	struct:ap3xx6_priv
+ps_thd	bbk_alsps.h	/^        u8 ps_thd;      \/*PS INT threshold*\/$/;"	m	struct:ap3xx6_i2c_addr
+ps_thd_val_h	bbk_alsps.h	/^	atomic_t	ps_thd_val_h;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv
+ps_thd_val_l	bbk_alsps.h	/^	atomic_t	ps_thd_val_l;	\/*the cmd value can't be read, stored in ram*\/$/;"	m	struct:ap3xx6_priv
+ps_threshold	bbk_alsps.c	/^int ps_threshold(u16 value, struct i2c_client *client)$/;"	f
+set_light_cail	bbk_alsps.c	/^int set_light_cail(unsigned int *p,struct ap3xx6_priv *obj)$/;"	f
+set_ps_cail	bbk_alsps.c	/^int set_ps_cail(unsigned int *p, struct ap3xx6_priv *obj)$/;"	f
+trace	bbk_alsps.h	/^	atomic_t	trace;$/;"	m	struct:ap3xx6_priv
+write_addr	bbk_alsps.h	/^        u8 write_addr;$/;"	m	struct:ap3xx6_i2c_addr
+write_ps_ctr_reg	ap3220.c	/^int write_ps_ctr_reg(struct i2c_client *client, int enable)$/;"	f

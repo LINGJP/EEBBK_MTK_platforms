@@ -1,0 +1,6 @@
+
+git clone gitlab:mtk/S1S.git 
+
+git clone git@172.28.2.93:rk3288/s3.git
+
+git clone 
